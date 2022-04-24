@@ -9,9 +9,11 @@ III. Implementation of Map Usage and Machine Learning
 
 I. Web Scraper:
   In my opinion nowadays data is a new kind of raw material - it is acquired, processed, stored and traded, and all this because it is a fuel for AI technology which is developing faster and faster. A regression or classification model is only as good as the data that trained it. The work on new models always starts with the acquisition of data, therefore the first step in the described project is to create a Web Scrapper, which will allow to take the existing housing offers from the OtoDom.pl classifieds portal. Then the data will be saved to a file in .csv format.
+  
+As mentioned, the model's area of operation was narrowed down to an area with a radius of 5 km from the Polish capital city - Warsaw.   
+The result of the Scrapper program is shown below. You can see the raw data ready for processing.
 
-![image](https://user-images.githubusercontent.com/83005003/164994958-2095e8a6-dbf6-4b16-9d0c-cf19504e7622.png)
-
+![image](https://user-images.githubusercontent.com/83005003/164995134-a50d93d8-0c01-46f4-9cf5-f1dbdabfb34b.png)
 
 
 
