@@ -4,7 +4,7 @@
 Chapters:
 I. Web Scraper
 II. Data cleaning and analysis
-III. Implementation of Map Usage and Machine Learning
+III. Implementation of Map usage and Machine Learning
 
 
 I. Web Scraper:
@@ -17,9 +17,9 @@ The result of the Scrapper program is shown below. You can see the raw data read
 
 
 
-
 II. Data cleaning and analysis
-  ...
+  
+Secound step
 
-III. Implementation of Map Usage and Machine Learning
+III. Implementation of Map usage and Machine Learning
   ...
