@@ -26,6 +26,23 @@ The next step is to prepare the collected data so that they can be used to creat
  
 ![image](https://user-images.githubusercontent.com/83005003/168078902-c85b432c-9473-4c81-9f11-bd32c1da497c.png)
 
+First, records that do not contain a price are removed because data without labels is not useful.
+![image](https://user-images.githubusercontent.com/83005003/168093603-2665dc09-28b1-4725-8b76-8ed1b8380037.png)
+
+Subsequent actions consisted of standardizing the content of records, converting them into numbers, or removing useless data. Data deviating in value from the rest were also removed if their number was a small percentage.
+
+For some column cases it is most convenient to use "one hot encoding", the "get_dummies()" method from the Pandas library was used for this. It creates additional columns with values 0 and 1 being the description of the actual state in the original column. 
+
+![image](https://user-images.githubusercontent.com/83005003/168099681-d28b41de-4d64-4173-bb5e-44f62f15e9ce.png)
+
+Finally, check that no NaN values appear in the table and that all values are numeric and not, for example, of string type.
+
+![image](https://user-images.githubusercontent.com/83005003/168100372-58125c48-e8e2-4674-85de-4c110beaa602.png)
+
+![image](https://user-images.githubusercontent.com/83005003/168100501-50fe1757-1cd9-48e3-8647-bfcd1afba1f7.png)
+
+The finished data frame is saved as a .csv file.
+
 
 III. Implementation of Map usage and Machine Learning
   ...
