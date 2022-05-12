@@ -1,0 +1,3262 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_b5756ab694bf477e50587c3e2884b23a {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_b5756ab694bf477e50587c3e2884b23a" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_b5756ab694bf477e50587c3e2884b23a = L.map(
+        'map_b5756ab694bf477e50587c3e2884b23a', {
+        center: [52.212225, 20.9726299],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_1d51949b027adc2af4485ae49b9a9570 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+    
+        var marker_84019a5e3a0f6bb75030cb108cf5fe6e = L.marker(
+            [52.212225, 20.9726299],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_df5eb3777bda2d7a5b54ba4e59e54fde = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ce7ba3a2f82416f40260700c17ee13f7 = $(`<div id="html_ce7ba3a2f82416f40260700c17ee13f7" style="width: 100.0%; height: 100.0%;"><i>Cena: 694700 Powierzchnia: 62 m² Rok budowy: brak informacji</i></div>`)[0];
+                popup_df5eb3777bda2d7a5b54ba4e59e54fde.setContent(html_ce7ba3a2f82416f40260700c17ee13f7);
+            
+
+            marker_84019a5e3a0f6bb75030cb108cf5fe6e.bindPopup(popup_df5eb3777bda2d7a5b54ba4e59e54fde)
+            ;
+
+            
+        
+    
+        var marker_2fba2b0c1c1caff740551453d2263c79 = L.marker(
+            [52.1775606, 21.047136],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ae845f3e04e0753dc83d89bd56548f4a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2667babf24d9a7ce0b067ff635fee39b = $(`<div id="html_2667babf24d9a7ce0b067ff635fee39b" style="width: 100.0%; height: 100.0%;"><i>Cena: 765000 Powierzchnia: 53,01 m² Rok budowy: 2014</i></div>`)[0];
+                popup_ae845f3e04e0753dc83d89bd56548f4a.setContent(html_2667babf24d9a7ce0b067ff635fee39b);
+            
+
+            marker_2fba2b0c1c1caff740551453d2263c79.bindPopup(popup_ae845f3e04e0753dc83d89bd56548f4a)
+            ;
+
+            
+        
+    
+        var marker_cc940e58c02b8c66687934cb5b7fa737 = L.marker(
+            [52.2475878, 20.9840958],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ab6f5ae99089133403ca46bd8d66ab02 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_46cf487a03bb5c7a336dfe4ffedd4509 = $(`<div id="html_46cf487a03bb5c7a336dfe4ffedd4509" style="width: 100.0%; height: 100.0%;"><i>Cena: 825000 Powierzchnia: 51,15 m² Rok budowy: 1953</i></div>`)[0];
+                popup_ab6f5ae99089133403ca46bd8d66ab02.setContent(html_46cf487a03bb5c7a336dfe4ffedd4509);
+            
+
+            marker_cc940e58c02b8c66687934cb5b7fa737.bindPopup(popup_ab6f5ae99089133403ca46bd8d66ab02)
+            ;
+
+            
+        
+    
+        var marker_00d8af7eb7370e516eb1d700023a8a55 = L.marker(
+            [52.200401299999996, 20.88029208808927],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_f6ce49bb8487510d0b1d522315261f96 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1644701fb45e689c0722bf642a4537d4 = $(`<div id="html_1644701fb45e689c0722bf642a4537d4" style="width: 100.0%; height: 100.0%;"><i>Cena: 459990 Powierzchnia: 38,4 m² Rok budowy: 2022</i></div>`)[0];
+                popup_f6ce49bb8487510d0b1d522315261f96.setContent(html_1644701fb45e689c0722bf642a4537d4);
+            
+
+            marker_00d8af7eb7370e516eb1d700023a8a55.bindPopup(popup_f6ce49bb8487510d0b1d522315261f96)
+            ;
+
+            
+        
+    
+        var marker_dfb929908a76ee817f97ab381a9ee783 = L.marker(
+            [52.2041667, 21.0008333],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_2e775f3466a197e69e5cbd5ab59375e4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0712b5c7832a11e3af802c3c4ac9f4ce = $(`<div id="html_0712b5c7832a11e3af802c3c4ac9f4ce" style="width: 100.0%; height: 100.0%;"><i>Cena: 530000 Powierzchnia: 40,5 m² Rok budowy: 1962</i></div>`)[0];
+                popup_2e775f3466a197e69e5cbd5ab59375e4.setContent(html_0712b5c7832a11e3af802c3c4ac9f4ce);
+            
+
+            marker_dfb929908a76ee817f97ab381a9ee783.bindPopup(popup_2e775f3466a197e69e5cbd5ab59375e4)
+            ;
+
+            
+        
+    
+        var marker_17a99862c378aa715b43b9c01bdff2af = L.marker(
+            [52.3315662, 21.0206194],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8150015f6ec95266aefafc5b727fb90e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec7f80dfaaf0093c02085cbae6a0691e = $(`<div id="html_ec7f80dfaaf0093c02085cbae6a0691e" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 64,69 m² Rok budowy: nan</i></div>`)[0];
+                popup_8150015f6ec95266aefafc5b727fb90e.setContent(html_ec7f80dfaaf0093c02085cbae6a0691e);
+            
+
+            marker_17a99862c378aa715b43b9c01bdff2af.bindPopup(popup_8150015f6ec95266aefafc5b727fb90e)
+            ;
+
+            
+        
+    
+        var marker_313dff01bd048a26a0a8c58ea1a24cd2 = L.marker(
+            [52.1763701, 20.991054479751888],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_9c95b6911255ccbbc8f2fe7d83628268 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8fb0ae4dfc6f371dd669312faf9e277e = $(`<div id="html_8fb0ae4dfc6f371dd669312faf9e277e" style="width: 100.0%; height: 100.0%;"><i>Cena: 1069000 Powierzchnia: 64,6 m² Rok budowy: 2018</i></div>`)[0];
+                popup_9c95b6911255ccbbc8f2fe7d83628268.setContent(html_8fb0ae4dfc6f371dd669312faf9e277e);
+            
+
+            marker_313dff01bd048a26a0a8c58ea1a24cd2.bindPopup(popup_9c95b6911255ccbbc8f2fe7d83628268)
+            ;
+
+            
+        
+    
+        var marker_3f9d37396f8434bfd04bdf93a3548bc0 = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_eb10c4c8738375d4a62a99543b4aa893 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0d2758296f524e89be2e93df7b3b497 = $(`<div id="html_e0d2758296f524e89be2e93df7b3b497" style="width: 100.0%; height: 100.0%;"><i>Cena: 665000 Powierzchnia: 53,6 m² Rok budowy: 1976</i></div>`)[0];
+                popup_eb10c4c8738375d4a62a99543b4aa893.setContent(html_e0d2758296f524e89be2e93df7b3b497);
+            
+
+            marker_3f9d37396f8434bfd04bdf93a3548bc0.bindPopup(popup_eb10c4c8738375d4a62a99543b4aa893)
+            ;
+
+            
+        
+    
+        var marker_27f7b4d001e6a05b588fe9f2b23fcf50 = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_dfdb7df491305385b4575c01c83ce699 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_df9f130e9350f5841614b8fc35063290 = $(`<div id="html_df9f130e9350f5841614b8fc35063290" style="width: 100.0%; height: 100.0%;"><i>Cena: 890000 Powierzchnia: 56,58 m² Rok budowy: 2011</i></div>`)[0];
+                popup_dfdb7df491305385b4575c01c83ce699.setContent(html_df9f130e9350f5841614b8fc35063290);
+            
+
+            marker_27f7b4d001e6a05b588fe9f2b23fcf50.bindPopup(popup_dfdb7df491305385b4575c01c83ce699)
+            ;
+
+            
+        
+    
+        var marker_3914969b86ea605936fe6eb3f70e118b = L.marker(
+            [52.2369852, 20.9372037],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8b4f907290b813c6c59600b59037987b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_241a5784af74b7cf5d82abc8b638ced7 = $(`<div id="html_241a5784af74b7cf5d82abc8b638ced7" style="width: 100.0%; height: 100.0%;"><i>Cena: 445500 Powierzchnia: 30 m² Rok budowy: 1975</i></div>`)[0];
+                popup_8b4f907290b813c6c59600b59037987b.setContent(html_241a5784af74b7cf5d82abc8b638ced7);
+            
+
+            marker_3914969b86ea605936fe6eb3f70e118b.bindPopup(popup_8b4f907290b813c6c59600b59037987b)
+            ;
+
+            
+        
+    
+        var marker_ed5ab7002e54488a395343088dfcd04b = L.marker(
+            [52.3355273, 20.895012],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_7d80bb745aa115beafbd89aaa0de9454 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d7f5d0a714d0a80ce609b264fcc21958 = $(`<div id="html_d7f5d0a714d0a80ce609b264fcc21958" style="width: 100.0%; height: 100.0%;"><i>Cena: 629000 Powierzchnia: 74 m² Rok budowy: 2000</i></div>`)[0];
+                popup_7d80bb745aa115beafbd89aaa0de9454.setContent(html_d7f5d0a714d0a80ce609b264fcc21958);
+            
+
+            marker_ed5ab7002e54488a395343088dfcd04b.bindPopup(popup_7d80bb745aa115beafbd89aaa0de9454)
+            ;
+
+            
+        
+    
+        var marker_ba8e4825313087fad27a92822cba3f47 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_257d25d5fe23b2467426f0e1dfb24278 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_56ae4b1eff4ed17796902fa48fe7d44d = $(`<div id="html_56ae4b1eff4ed17796902fa48fe7d44d" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 75,02 m² Rok budowy: nan</i></div>`)[0];
+                popup_257d25d5fe23b2467426f0e1dfb24278.setContent(html_56ae4b1eff4ed17796902fa48fe7d44d);
+            
+
+            marker_ba8e4825313087fad27a92822cba3f47.bindPopup(popup_257d25d5fe23b2467426f0e1dfb24278)
+            ;
+
+            
+        
+    
+        var marker_95036bf0763c4a1012084574fe576af9 = L.marker(
+            [52.171958950000004, 20.80297899012694],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_538628aa9b7d0f819e619eefb8f30581 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9e9fc47c0b7a744b2aa22c1852b87f99 = $(`<div id="html_9e9fc47c0b7a744b2aa22c1852b87f99" style="width: 100.0%; height: 100.0%;"><i>Cena: 699000 Powierzchnia: 56,1 m² Rok budowy: 2020</i></div>`)[0];
+                popup_538628aa9b7d0f819e619eefb8f30581.setContent(html_9e9fc47c0b7a744b2aa22c1852b87f99);
+            
+
+            marker_95036bf0763c4a1012084574fe576af9.bindPopup(popup_538628aa9b7d0f819e619eefb8f30581)
+            ;
+
+            
+        
+    
+        var marker_b65c7253e43080c3038922f364d94e36 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_66f648c9e8adfb5ec578e09f2758ed04 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cbee5e6e659d3956d09fb0bbfd48167b = $(`<div id="html_cbee5e6e659d3956d09fb0bbfd48167b" style="width: 100.0%; height: 100.0%;"><i>Cena: 550000 Powierzchnia: 39,5 m² Rok budowy: 2022</i></div>`)[0];
+                popup_66f648c9e8adfb5ec578e09f2758ed04.setContent(html_cbee5e6e659d3956d09fb0bbfd48167b);
+            
+
+            marker_b65c7253e43080c3038922f364d94e36.bindPopup(popup_66f648c9e8adfb5ec578e09f2758ed04)
+            ;
+
+            
+        
+    
+        var marker_5a95af041a6d9f9b28820b596340118f = L.marker(
+            [52.2818172, 20.9493596],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_48062aa2a31d13595968fe58792b6a76 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d33a724a9d6a89e8189564a0984f3b1c = $(`<div id="html_d33a724a9d6a89e8189564a0984f3b1c" style="width: 100.0%; height: 100.0%;"><i>Cena: 580683 Powierzchnia: 47,21 m² Rok budowy: 1950</i></div>`)[0];
+                popup_48062aa2a31d13595968fe58792b6a76.setContent(html_d33a724a9d6a89e8189564a0984f3b1c);
+            
+
+            marker_5a95af041a6d9f9b28820b596340118f.bindPopup(popup_48062aa2a31d13595968fe58792b6a76)
+            ;
+
+            
+        
+    
+        var marker_0728b244b1dda006c1da88dd21cfebf3 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_06b862f68a4b983312f1ca4faa96a3c3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a394e3834341695eacade85fb50ff07d = $(`<div id="html_a394e3834341695eacade85fb50ff07d" style="width: 100.0%; height: 100.0%;"><i>Cena: 710000 Powierzchnia: 86,47 m² Rok budowy: brak informacji</i></div>`)[0];
+                popup_06b862f68a4b983312f1ca4faa96a3c3.setContent(html_a394e3834341695eacade85fb50ff07d);
+            
+
+            marker_0728b244b1dda006c1da88dd21cfebf3.bindPopup(popup_06b862f68a4b983312f1ca4faa96a3c3)
+            ;
+
+            
+        
+    
+        var marker_bba4355365131163b425406a52d3fb7c = L.marker(
+            [52.1939874, 21.0457809],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_f65244bed7fe3ac12a822bf7541159b9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bb53e1b0c5b3b45f7e9ac5232b205e06 = $(`<div id="html_bb53e1b0c5b3b45f7e9ac5232b205e06" style="width: 100.0%; height: 100.0%;"><i>Cena: 899000 Powierzchnia: 54,2 m² Rok budowy: 2018</i></div>`)[0];
+                popup_f65244bed7fe3ac12a822bf7541159b9.setContent(html_bb53e1b0c5b3b45f7e9ac5232b205e06);
+            
+
+            marker_bba4355365131163b425406a52d3fb7c.bindPopup(popup_f65244bed7fe3ac12a822bf7541159b9)
+            ;
+
+            
+        
+    
+        var marker_eae3b663ebd28ad023abb8d6b4d78f57 = L.marker(
+            [52.2380811, 20.9621518],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_d2ad2d9d658e9cbc4f0cffad5fa10df8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5a0115a5bf126163418321212cfac571 = $(`<div id="html_5a0115a5bf126163418321212cfac571" style="width: 100.0%; height: 100.0%;"><i>Cena: 620000 Powierzchnia: 51,66 m² Rok budowy: brak informacji</i></div>`)[0];
+                popup_d2ad2d9d658e9cbc4f0cffad5fa10df8.setContent(html_5a0115a5bf126163418321212cfac571);
+            
+
+            marker_eae3b663ebd28ad023abb8d6b4d78f57.bindPopup(popup_d2ad2d9d658e9cbc4f0cffad5fa10df8)
+            ;
+
+            
+        
+    
+        var marker_7cc8f6c18be973e9e45920657c23d9a5 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_70078aaf3434da944f171a229aca763c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_36faf53afdcaee53a9de4cefbfebb6a9 = $(`<div id="html_36faf53afdcaee53a9de4cefbfebb6a9" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 49,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_70078aaf3434da944f171a229aca763c.setContent(html_36faf53afdcaee53a9de4cefbfebb6a9);
+            
+
+            marker_7cc8f6c18be973e9e45920657c23d9a5.bindPopup(popup_70078aaf3434da944f171a229aca763c)
+            ;
+
+            
+        
+    
+        var marker_06883bc079f9a70dde8524572f3f1e02 = L.marker(
+            [52.2614149, 21.1628191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_b6407cf6733296fec0b04d92f62525fc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_068b0c7cda0c3a984547e6a0941bafb1 = $(`<div id="html_068b0c7cda0c3a984547e6a0941bafb1" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 69,49 m² Rok budowy: nan</i></div>`)[0];
+                popup_b6407cf6733296fec0b04d92f62525fc.setContent(html_068b0c7cda0c3a984547e6a0941bafb1);
+            
+
+            marker_06883bc079f9a70dde8524572f3f1e02.bindPopup(popup_b6407cf6733296fec0b04d92f62525fc)
+            ;
+
+            
+        
+    
+        var marker_09c80238e89d3a2c16c429e8af13aed2 = L.marker(
+            [52.1939874, 21.0457809],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_1b5f98a94168f68cf62033985b88ef2b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fb0a632728a2a06340b5a23af094a465 = $(`<div id="html_fb0a632728a2a06340b5a23af094a465" style="width: 100.0%; height: 100.0%;"><i>Cena: 933000 Powierzchnia: 67,22 m² Rok budowy: 2022</i></div>`)[0];
+                popup_1b5f98a94168f68cf62033985b88ef2b.setContent(html_fb0a632728a2a06340b5a23af094a465);
+            
+
+            marker_09c80238e89d3a2c16c429e8af13aed2.bindPopup(popup_1b5f98a94168f68cf62033985b88ef2b)
+            ;
+
+            
+        
+    
+        var marker_28d25c10021e418e20de6d18a44c983d = L.marker(
+            [52.1851, 21.0628489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_4c8f302e037a66eab010c1822e4ed0f4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_04807cf9781f71c478e6531f2ea3b552 = $(`<div id="html_04807cf9781f71c478e6531f2ea3b552" style="width: 100.0%; height: 100.0%;"><i>Cena: 799000 Powierzchnia: 45,17 m² Rok budowy: brak informacji</i></div>`)[0];
+                popup_4c8f302e037a66eab010c1822e4ed0f4.setContent(html_04807cf9781f71c478e6531f2ea3b552);
+            
+
+            marker_28d25c10021e418e20de6d18a44c983d.bindPopup(popup_4c8f302e037a66eab010c1822e4ed0f4)
+            ;
+
+            
+        
+    
+        var marker_d5ff52842850d46ab3f84de4e7435022 = L.marker(
+            [52.2614149, 21.1628191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_1ebb5f4e095137e8952d6e5889b59a42 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0c0308bda18d1ae643f060c47305a891 = $(`<div id="html_0c0308bda18d1ae643f060c47305a891" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 51,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_1ebb5f4e095137e8952d6e5889b59a42.setContent(html_0c0308bda18d1ae643f060c47305a891);
+            
+
+            marker_d5ff52842850d46ab3f84de4e7435022.bindPopup(popup_1ebb5f4e095137e8952d6e5889b59a42)
+            ;
+
+            
+        
+    
+        var marker_41ea7b150c0f12d02279b469802c5a6d = L.marker(
+            [52.2041667, 21.0008333],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_7745dc25c4237663cfebc106cbe34819 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_720a3d733e7f3458eb927d86aed68fd8 = $(`<div id="html_720a3d733e7f3458eb927d86aed68fd8" style="width: 100.0%; height: 100.0%;"><i>Cena: 865000 Powierzchnia: 61,4 m² Rok budowy: 1936</i></div>`)[0];
+                popup_7745dc25c4237663cfebc106cbe34819.setContent(html_720a3d733e7f3458eb927d86aed68fd8);
+            
+
+            marker_41ea7b150c0f12d02279b469802c5a6d.bindPopup(popup_7745dc25c4237663cfebc106cbe34819)
+            ;
+
+            
+        
+    
+        var marker_07f58d56186dac5b0d2cb7a310267dfd = L.marker(
+            [52.2751918, 21.0580854],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_f52558999ed451d953b92ecc2c49cc04 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_34dc238dc7eb7b901d59b1f6d0079d10 = $(`<div id="html_34dc238dc7eb7b901d59b1f6d0079d10" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 49,95 m² Rok budowy: nan</i></div>`)[0];
+                popup_f52558999ed451d953b92ecc2c49cc04.setContent(html_34dc238dc7eb7b901d59b1f6d0079d10);
+            
+
+            marker_07f58d56186dac5b0d2cb7a310267dfd.bindPopup(popup_f52558999ed451d953b92ecc2c49cc04)
+            ;
+
+            
+        
+    
+        var marker_e4d8d8653e6b3a3ba9fcfd30926c9a25 = L.marker(
+            [52.3030571, 21.0902194],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_5dfcc7fffad469b45ea4fb44fb4e334f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e12a67efca938f545d5441812c909892 = $(`<div id="html_e12a67efca938f545d5441812c909892" style="width: 100.0%; height: 100.0%;"><i>Cena: 420000 Powierzchnia: 40,5 m² Rok budowy: 1998</i></div>`)[0];
+                popup_5dfcc7fffad469b45ea4fb44fb4e334f.setContent(html_e12a67efca938f545d5441812c909892);
+            
+
+            marker_e4d8d8653e6b3a3ba9fcfd30926c9a25.bindPopup(popup_5dfcc7fffad469b45ea4fb44fb4e334f)
+            ;
+
+            
+        
+    
+        var marker_11f929e6a5d8c13a9f8d9a7f7d48e749 = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_9c7c0a5f479ad120ddf7a2d450f6154e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_276780fbefbd7aac5f41b2de24b9627f = $(`<div id="html_276780fbefbd7aac5f41b2de24b9627f" style="width: 100.0%; height: 100.0%;"><i>Cena: 682633 Powierzchnia: 52,7 m² Rok budowy: nan</i></div>`)[0];
+                popup_9c7c0a5f479ad120ddf7a2d450f6154e.setContent(html_276780fbefbd7aac5f41b2de24b9627f);
+            
+
+            marker_11f929e6a5d8c13a9f8d9a7f7d48e749.bindPopup(popup_9c7c0a5f479ad120ddf7a2d450f6154e)
+            ;
+
+            
+        
+    
+        var marker_0a2a4ee983023803920b00d4fbe4fa57 = L.marker(
+            [52.103481, 21.2929235],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_cceb63b886607cda9e4eb7cde7d0e646 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fe4ab4862432bcc6831f08a713f4aa6d = $(`<div id="html_fe4ab4862432bcc6831f08a713f4aa6d" style="width: 100.0%; height: 100.0%;"><i>Cena: 690000 Powierzchnia: 97,74 m² Rok budowy: 2009</i></div>`)[0];
+                popup_cceb63b886607cda9e4eb7cde7d0e646.setContent(html_fe4ab4862432bcc6831f08a713f4aa6d);
+            
+
+            marker_0a2a4ee983023803920b00d4fbe4fa57.bindPopup(popup_cceb63b886607cda9e4eb7cde7d0e646)
+            ;
+
+            
+        
+    
+        var marker_655546b153c26c899e247f4b71205f02 = L.marker(
+            [52.0747377, 21.0270885],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_0a4947b5e18fb36aa3d1ece6169b79de = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_896e0589fb591c6113a7960c37f2963f = $(`<div id="html_896e0589fb591c6113a7960c37f2963f" style="width: 100.0%; height: 100.0%;"><i>Cena: 643000 Powierzchnia: 72,42 m² Rok budowy: nan</i></div>`)[0];
+                popup_0a4947b5e18fb36aa3d1ece6169b79de.setContent(html_896e0589fb591c6113a7960c37f2963f);
+            
+
+            marker_655546b153c26c899e247f4b71205f02.bindPopup(popup_0a4947b5e18fb36aa3d1ece6169b79de)
+            ;
+
+            
+        
+    
+        var marker_4e06721ed9d837dd8c93ed8d1d73ee36 = L.marker(
+            [52.067005, 21.0383883],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_6a245899427caa8e0059620ee3baaead = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6131fc03d059c79c64c4996bb1a4fd14 = $(`<div id="html_6131fc03d059c79c64c4996bb1a4fd14" style="width: 100.0%; height: 100.0%;"><i>Cena: 650000 Powierzchnia: 73 m² Rok budowy: 2016</i></div>`)[0];
+                popup_6a245899427caa8e0059620ee3baaead.setContent(html_6131fc03d059c79c64c4996bb1a4fd14);
+            
+
+            marker_4e06721ed9d837dd8c93ed8d1d73ee36.bindPopup(popup_6a245899427caa8e0059620ee3baaead)
+            ;
+
+            
+        
+    
+        var marker_6a62b8a8d8441448ee00d67303f72838 = L.marker(
+            [52.2404294, 20.9297338],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ed1aac646a1f1de3a1384c6e6a663ef9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e9e3a2ef0e88797b1b4872376496bbe6 = $(`<div id="html_e9e3a2ef0e88797b1b4872376496bbe6" style="width: 100.0%; height: 100.0%;"><i>Cena: 450000 Powierzchnia: 29,4 m² Rok budowy: 2009</i></div>`)[0];
+                popup_ed1aac646a1f1de3a1384c6e6a663ef9.setContent(html_e9e3a2ef0e88797b1b4872376496bbe6);
+            
+
+            marker_6a62b8a8d8441448ee00d67303f72838.bindPopup(popup_ed1aac646a1f1de3a1384c6e6a663ef9)
+            ;
+
+            
+        
+    
+        var marker_01fdf52257525deeae412e090885c331 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_a457daa35dbdaf9c2bbc72397f43e5c5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8d485225affc80c543377e2340a53065 = $(`<div id="html_8d485225affc80c543377e2340a53065" style="width: 100.0%; height: 100.0%;"><i>Cena: 359000 Powierzchnia: 32 m² Rok budowy: 1965</i></div>`)[0];
+                popup_a457daa35dbdaf9c2bbc72397f43e5c5.setContent(html_8d485225affc80c543377e2340a53065);
+            
+
+            marker_01fdf52257525deeae412e090885c331.bindPopup(popup_a457daa35dbdaf9c2bbc72397f43e5c5)
+            ;
+
+            
+        
+    
+        var marker_1071e460d335cb0ab6354b2af288fe7b = L.marker(
+            [52.2200068, 20.9743785],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_78b879fbcb225cbff1ca849624a84c85 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_06960cee7295520031864f5ad807eb47 = $(`<div id="html_06960cee7295520031864f5ad807eb47" style="width: 100.0%; height: 100.0%;"><i>Cena: 968000 Powierzchnia: 49 m² Rok budowy: 2018</i></div>`)[0];
+                popup_78b879fbcb225cbff1ca849624a84c85.setContent(html_06960cee7295520031864f5ad807eb47);
+            
+
+            marker_1071e460d335cb0ab6354b2af288fe7b.bindPopup(popup_78b879fbcb225cbff1ca849624a84c85)
+            ;
+
+            
+        
+    
+        var marker_0d19ca20de48628ca7b815519f390624 = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ab9584a044a9e9f990a4045e3e12f552 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dabfb8a71414ca0cc47fff7bfb2a2696 = $(`<div id="html_dabfb8a71414ca0cc47fff7bfb2a2696" style="width: 100.0%; height: 100.0%;"><i>Cena: 817818 Powierzchnia: 76 m² Rok budowy: nan</i></div>`)[0];
+                popup_ab9584a044a9e9f990a4045e3e12f552.setContent(html_dabfb8a71414ca0cc47fff7bfb2a2696);
+            
+
+            marker_0d19ca20de48628ca7b815519f390624.bindPopup(popup_ab9584a044a9e9f990a4045e3e12f552)
+            ;
+
+            
+        
+    
+        var marker_016ee85146ce5a6c2cf688845c249bd8 = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_429ddaac1cc3eded0f282101a4c9c2b8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6fbac9a6a84e2edf798bd272390d9d23 = $(`<div id="html_6fbac9a6a84e2edf798bd272390d9d23" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 35,39 m² Rok budowy: 2024</i></div>`)[0];
+                popup_429ddaac1cc3eded0f282101a4c9c2b8.setContent(html_6fbac9a6a84e2edf798bd272390d9d23);
+            
+
+            marker_016ee85146ce5a6c2cf688845c249bd8.bindPopup(popup_429ddaac1cc3eded0f282101a4c9c2b8)
+            ;
+
+            
+        
+    
+        var marker_31b6de0982c1082e42f4559ed1542603 = L.marker(
+            [52.1711611, 21.0007265],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_d068085c062f8a0229336e9b69826698 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fc252e9efe328dfe2b438a0c704ff891 = $(`<div id="html_fc252e9efe328dfe2b438a0c704ff891" style="width: 100.0%; height: 100.0%;"><i>Cena: 498000 Powierzchnia: 35 m² Rok budowy: 1958</i></div>`)[0];
+                popup_d068085c062f8a0229336e9b69826698.setContent(html_fc252e9efe328dfe2b438a0c704ff891);
+            
+
+            marker_31b6de0982c1082e42f4559ed1542603.bindPopup(popup_d068085c062f8a0229336e9b69826698)
+            ;
+
+            
+        
+    
+        var marker_8bc5a8c769d03e7959fc662be2353f5a = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_f9bb329e7439a03cd78b9650dba74a9e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_79176d03cf8cf1c5c1e0ca9aa1453471 = $(`<div id="html_79176d03cf8cf1c5c1e0ca9aa1453471" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 35,3 m² Rok budowy: 2024</i></div>`)[0];
+                popup_f9bb329e7439a03cd78b9650dba74a9e.setContent(html_79176d03cf8cf1c5c1e0ca9aa1453471);
+            
+
+            marker_8bc5a8c769d03e7959fc662be2353f5a.bindPopup(popup_f9bb329e7439a03cd78b9650dba74a9e)
+            ;
+
+            
+        
+    
+        var marker_8726fe139e988f17cc62949b2f2a7cbe = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_0b50ebbd7ad4dc50bf8a7cc1ff478537 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cac6ecff54a6721f146c5a9789d7ef29 = $(`<div id="html_cac6ecff54a6721f146c5a9789d7ef29" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 58,25 m² Rok budowy: nan</i></div>`)[0];
+                popup_0b50ebbd7ad4dc50bf8a7cc1ff478537.setContent(html_cac6ecff54a6721f146c5a9789d7ef29);
+            
+
+            marker_8726fe139e988f17cc62949b2f2a7cbe.bindPopup(popup_0b50ebbd7ad4dc50bf8a7cc1ff478537)
+            ;
+
+            
+        
+    
+        var marker_0216f00d0ec56a6e3bc20e2582638dde = L.marker(
+            [52.2362379, 20.9547815],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_a429de8eb83d72c9d4ee5119e1b5f83d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1b5bdc557fb37c75603a381a4439125b = $(`<div id="html_1b5bdc557fb37c75603a381a4439125b" style="width: 100.0%; height: 100.0%;"><i>Cena: 762000 Powierzchnia: 42,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_a429de8eb83d72c9d4ee5119e1b5f83d.setContent(html_1b5bdc557fb37c75603a381a4439125b);
+            
+
+            marker_0216f00d0ec56a6e3bc20e2582638dde.bindPopup(popup_a429de8eb83d72c9d4ee5119e1b5f83d)
+            ;
+
+            
+        
+    
+        var marker_871c99015173d5a4eada117690e05363 = L.marker(
+            [52.3196462, 21.1112808],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_1a0d3d40f60d969255938864eb889967 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b0a284bf8a2b0a5c57362a98a9926474 = $(`<div id="html_b0a284bf8a2b0a5c57362a98a9926474" style="width: 100.0%; height: 100.0%;"><i>Cena: 949000 Powierzchnia: 141,2 m² Rok budowy: 2011</i></div>`)[0];
+                popup_1a0d3d40f60d969255938864eb889967.setContent(html_b0a284bf8a2b0a5c57362a98a9926474);
+            
+
+            marker_871c99015173d5a4eada117690e05363.bindPopup(popup_1a0d3d40f60d969255938864eb889967)
+            ;
+
+            
+        
+    
+        var marker_3ebaf61637f09cad0dabc61da551626f = L.marker(
+            [52.236806, 21.0094328],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_733efa7a3f9b484c9bc8b06c2601ce8c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8f4c126a15a230d7f7b727e6320c9ba8 = $(`<div id="html_8f4c126a15a230d7f7b727e6320c9ba8" style="width: 100.0%; height: 100.0%;"><i>Cena: 798000 Powierzchnia: 38 m² Rok budowy: 2005</i></div>`)[0];
+                popup_733efa7a3f9b484c9bc8b06c2601ce8c.setContent(html_8f4c126a15a230d7f7b727e6320c9ba8);
+            
+
+            marker_3ebaf61637f09cad0dabc61da551626f.bindPopup(popup_733efa7a3f9b484c9bc8b06c2601ce8c)
+            ;
+
+            
+        
+    
+        var marker_9207a6c703e26af347fe85b5d8c67e77 = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_65e886ab782d8e5f4bdf0225fec42c38 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7d57b91eccc97f575350ef162b5d1ea6 = $(`<div id="html_7d57b91eccc97f575350ef162b5d1ea6" style="width: 100.0%; height: 100.0%;"><i>Cena: 1005644 Powierzchnia: 83,9 m² Rok budowy: nan</i></div>`)[0];
+                popup_65e886ab782d8e5f4bdf0225fec42c38.setContent(html_7d57b91eccc97f575350ef162b5d1ea6);
+            
+
+            marker_9207a6c703e26af347fe85b5d8c67e77.bindPopup(popup_65e886ab782d8e5f4bdf0225fec42c38)
+            ;
+
+            
+        
+    
+        var marker_b34632d6b3f9ce42fd5331a0f30a4590 = L.marker(
+            [52.1960985, 20.8828989],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_19a6f7ecb403b8f630f042032519c0b7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_748369a1a0c5542c19755a7646c365d8 = $(`<div id="html_748369a1a0c5542c19755a7646c365d8" style="width: 100.0%; height: 100.0%;"><i>Cena: 444900 Powierzchnia: 39,03 m² Rok budowy: 2022</i></div>`)[0];
+                popup_19a6f7ecb403b8f630f042032519c0b7.setContent(html_748369a1a0c5542c19755a7646c365d8);
+            
+
+            marker_b34632d6b3f9ce42fd5331a0f30a4590.bindPopup(popup_19a6f7ecb403b8f630f042032519c0b7)
+            ;
+
+            
+        
+    
+        var marker_f51030d1b52cda053a61f3ad0dedceb1 = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_69d35f97c66461395a9931c556675307 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_43a011751afc3078e4e0fba4f08442a9 = $(`<div id="html_43a011751afc3078e4e0fba4f08442a9" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 35,3 m² Rok budowy: 2024</i></div>`)[0];
+                popup_69d35f97c66461395a9931c556675307.setContent(html_43a011751afc3078e4e0fba4f08442a9);
+            
+
+            marker_f51030d1b52cda053a61f3ad0dedceb1.bindPopup(popup_69d35f97c66461395a9931c556675307)
+            ;
+
+            
+        
+    
+        var marker_9d4bc032147e5ee87727a9bb578f9bd0 = L.marker(
+            [52.1006181, 21.0468759],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_027dc149b7edb8b2a122462acc34e013 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d6168d9d895fc1d7763bbda26467d3ab = $(`<div id="html_d6168d9d895fc1d7763bbda26467d3ab" style="width: 100.0%; height: 100.0%;"><i>Cena: 373164 Powierzchnia: 43,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_027dc149b7edb8b2a122462acc34e013.setContent(html_d6168d9d895fc1d7763bbda26467d3ab);
+            
+
+            marker_9d4bc032147e5ee87727a9bb578f9bd0.bindPopup(popup_027dc149b7edb8b2a122462acc34e013)
+            ;
+
+            
+        
+    
+        var marker_35b138ecb48668bfc91d63d1c0d1a18f = L.marker(
+            [52.250981, 21.0336054],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_82f8a886fd6286fc5914f41cd0fef40e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d04e806f7eb6d15c5e24eb36ef8dc5c5 = $(`<div id="html_d04e806f7eb6d15c5e24eb36ef8dc5c5" style="width: 100.0%; height: 100.0%;"><i>Cena: 450000 Powierzchnia: 26 m² Rok budowy: 2019</i></div>`)[0];
+                popup_82f8a886fd6286fc5914f41cd0fef40e.setContent(html_d04e806f7eb6d15c5e24eb36ef8dc5c5);
+            
+
+            marker_35b138ecb48668bfc91d63d1c0d1a18f.bindPopup(popup_82f8a886fd6286fc5914f41cd0fef40e)
+            ;
+
+            
+        
+    
+        var marker_99fdf7213d5f3134645d18ac85d1058b = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_490470c0229233018d4b3a45bf9c22e9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_667c615c7357eed24627b9f2c7e34aa5 = $(`<div id="html_667c615c7357eed24627b9f2c7e34aa5" style="width: 100.0%; height: 100.0%;"><i>Cena: 1019497 Powierzchnia: 83,9 m² Rok budowy: nan</i></div>`)[0];
+                popup_490470c0229233018d4b3a45bf9c22e9.setContent(html_667c615c7357eed24627b9f2c7e34aa5);
+            
+
+            marker_99fdf7213d5f3134645d18ac85d1058b.bindPopup(popup_490470c0229233018d4b3a45bf9c22e9)
+            ;
+
+            
+        
+    
+        var marker_ca39aad4687810dc3102b5cdcdb06f5c = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_69c8d59eb58521ad7199df540bb618f7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2afeaafc8a8a4f94d0557e66aca12cd2 = $(`<div id="html_2afeaafc8a8a4f94d0557e66aca12cd2" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 36,88 m² Rok budowy: 2024</i></div>`)[0];
+                popup_69c8d59eb58521ad7199df540bb618f7.setContent(html_2afeaafc8a8a4f94d0557e66aca12cd2);
+            
+
+            marker_ca39aad4687810dc3102b5cdcdb06f5c.bindPopup(popup_69c8d59eb58521ad7199df540bb618f7)
+            ;
+
+            
+        
+    
+        var marker_2dd178559f18884e06f9571cc6176e60 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_179039caf1a783027e333e4127df6dbc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9bd8c5c96772f11f4f987d5b6d1c98bf = $(`<div id="html_9bd8c5c96772f11f4f987d5b6d1c98bf" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 67,4 m² Rok budowy: nan</i></div>`)[0];
+                popup_179039caf1a783027e333e4127df6dbc.setContent(html_9bd8c5c96772f11f4f987d5b6d1c98bf);
+            
+
+            marker_2dd178559f18884e06f9571cc6176e60.bindPopup(popup_179039caf1a783027e333e4127df6dbc)
+            ;
+
+            
+        
+    
+        var marker_2ea2e242a68277b4bda8d1004f1f7f70 = L.marker(
+            [52.1006181, 21.0468759],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_85d750afb6cacd5c997b1ce6c1ed17e5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6933c468b685c79831da2be05b717ca2 = $(`<div id="html_6933c468b685c79831da2be05b717ca2" style="width: 100.0%; height: 100.0%;"><i>Cena: 581924 Powierzchnia: 75,33 m² Rok budowy: nan</i></div>`)[0];
+                popup_85d750afb6cacd5c997b1ce6c1ed17e5.setContent(html_6933c468b685c79831da2be05b717ca2);
+            
+
+            marker_2ea2e242a68277b4bda8d1004f1f7f70.bindPopup(popup_85d750afb6cacd5c997b1ce6c1ed17e5)
+            ;
+
+            
+        
+    
+        var marker_e479d9a39c5f5d92aa34fa5397138587 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8d99153d78f11e70a47f951222a03d0d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5210d003fd2a8443e9122fc0d0257cc2 = $(`<div id="html_5210d003fd2a8443e9122fc0d0257cc2" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 67,4 m² Rok budowy: nan</i></div>`)[0];
+                popup_8d99153d78f11e70a47f951222a03d0d.setContent(html_5210d003fd2a8443e9122fc0d0257cc2);
+            
+
+            marker_e479d9a39c5f5d92aa34fa5397138587.bindPopup(popup_8d99153d78f11e70a47f951222a03d0d)
+            ;
+
+            
+        
+    
+        var marker_e0adad33f702c02187842e85fb5a3647 = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8d1ae614ff34c21e907e2e7d097a7bc2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fc74486364fd1028fba8b3654c4ce7f1 = $(`<div id="html_fc74486364fd1028fba8b3654c4ce7f1" style="width: 100.0%; height: 100.0%;"><i>Cena: 676736 Powierzchnia: 52,7 m² Rok budowy: nan</i></div>`)[0];
+                popup_8d1ae614ff34c21e907e2e7d097a7bc2.setContent(html_fc74486364fd1028fba8b3654c4ce7f1);
+            
+
+            marker_e0adad33f702c02187842e85fb5a3647.bindPopup(popup_8d1ae614ff34c21e907e2e7d097a7bc2)
+            ;
+
+            
+        
+    
+        var marker_77adf12606be8abe67049ea70692cc82 = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_99286c8d20690d482278554d272872c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e42ebac105555b4b1bbb5da0472bbf8b = $(`<div id="html_e42ebac105555b4b1bbb5da0472bbf8b" style="width: 100.0%; height: 100.0%;"><i>Cena: 665468 Powierzchnia: 52,2 m² Rok budowy: nan</i></div>`)[0];
+                popup_99286c8d20690d482278554d272872c9.setContent(html_e42ebac105555b4b1bbb5da0472bbf8b);
+            
+
+            marker_77adf12606be8abe67049ea70692cc82.bindPopup(popup_99286c8d20690d482278554d272872c9)
+            ;
+
+            
+        
+    
+        var marker_0c8d4ca85cf77a84db5be325bf8c2020 = L.marker(
+            [52.2614149, 21.1628191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_71a8e94cadf7eef5d462d435a4d8ad5f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_542c46acf11a706d0decc6894a8f2a32 = $(`<div id="html_542c46acf11a706d0decc6894a8f2a32" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 88,59 m² Rok budowy: nan</i></div>`)[0];
+                popup_71a8e94cadf7eef5d462d435a4d8ad5f.setContent(html_542c46acf11a706d0decc6894a8f2a32);
+            
+
+            marker_0c8d4ca85cf77a84db5be325bf8c2020.bindPopup(popup_71a8e94cadf7eef5d462d435a4d8ad5f)
+            ;
+
+            
+        
+    
+        var marker_0fb090ce0024dfa33bb7e582f58d7cbb = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_b6d1e3a5e5ff72cf4acb3c17e8daa2e4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_16a09ea1015775d272201b66f11eca0b = $(`<div id="html_16a09ea1015775d272201b66f11eca0b" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 55,81 m² Rok budowy: nan</i></div>`)[0];
+                popup_b6d1e3a5e5ff72cf4acb3c17e8daa2e4.setContent(html_16a09ea1015775d272201b66f11eca0b);
+            
+
+            marker_0fb090ce0024dfa33bb7e582f58d7cbb.bindPopup(popup_b6d1e3a5e5ff72cf4acb3c17e8daa2e4)
+            ;
+
+            
+        
+    
+        var marker_dbb40dbaae8ad0bb2f91e616b2bda830 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_489f129ebc43fb190c5595b356075a19 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5861b1c44305e4e7cae756dc9ce93414 = $(`<div id="html_5861b1c44305e4e7cae756dc9ce93414" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 42,36 m² Rok budowy: nan</i></div>`)[0];
+                popup_489f129ebc43fb190c5595b356075a19.setContent(html_5861b1c44305e4e7cae756dc9ce93414);
+            
+
+            marker_dbb40dbaae8ad0bb2f91e616b2bda830.bindPopup(popup_489f129ebc43fb190c5595b356075a19)
+            ;
+
+            
+        
+    
+        var marker_ffacabb1141f8ac147056fedfdcc3121 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_dabce7bb2bda8a9f4cd7752f8271119c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0a38645bd616776856c77e301242a9c5 = $(`<div id="html_0a38645bd616776856c77e301242a9c5" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 86,45 m² Rok budowy: nan</i></div>`)[0];
+                popup_dabce7bb2bda8a9f4cd7752f8271119c.setContent(html_0a38645bd616776856c77e301242a9c5);
+            
+
+            marker_ffacabb1141f8ac147056fedfdcc3121.bindPopup(popup_dabce7bb2bda8a9f4cd7752f8271119c)
+            ;
+
+            
+        
+    
+        var marker_7ff86fdfbbc44383be37cd5c5ebee18c = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_04ac58a8136d6223694fdb3219025112 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5b82f28158a3baaa410d45deb0439527 = $(`<div id="html_5b82f28158a3baaa410d45deb0439527" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 28,56 m² Rok budowy: nan</i></div>`)[0];
+                popup_04ac58a8136d6223694fdb3219025112.setContent(html_5b82f28158a3baaa410d45deb0439527);
+            
+
+            marker_7ff86fdfbbc44383be37cd5c5ebee18c.bindPopup(popup_04ac58a8136d6223694fdb3219025112)
+            ;
+
+            
+        
+    
+        var marker_f4ebb20ff5efb6f5b5e890b5ac3c03c1 = L.marker(
+            [52.1939874, 21.0457809],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_be4170bc5197d785cf68071942344230 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_917a79c4e6253bb935baeeb18accf333 = $(`<div id="html_917a79c4e6253bb935baeeb18accf333" style="width: 100.0%; height: 100.0%;"><i>Cena: 729000 Powierzchnia: 51,6 m² Rok budowy: 2010</i></div>`)[0];
+                popup_be4170bc5197d785cf68071942344230.setContent(html_917a79c4e6253bb935baeeb18accf333);
+            
+
+            marker_f4ebb20ff5efb6f5b5e890b5ac3c03c1.bindPopup(popup_be4170bc5197d785cf68071942344230)
+            ;
+
+            
+        
+    
+        var marker_49332a30859318d050ee980cc3e9afe8 = L.marker(
+            [52.1939874, 21.0457809],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_f86853c4b867b89660d3d7892e80a23d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2db38778bf6acbe9f4d1b531979c84b6 = $(`<div id="html_2db38778bf6acbe9f4d1b531979c84b6" style="width: 100.0%; height: 100.0%;"><i>Cena: 1199000 Powierzchnia: 94 m² Rok budowy: 2018</i></div>`)[0];
+                popup_f86853c4b867b89660d3d7892e80a23d.setContent(html_2db38778bf6acbe9f4d1b531979c84b6);
+            
+
+            marker_49332a30859318d050ee980cc3e9afe8.bindPopup(popup_f86853c4b867b89660d3d7892e80a23d)
+            ;
+
+            
+        
+    
+        var marker_87b082f6765ccea1a4177d802c682d17 = L.marker(
+            [52.1960985, 20.8828989],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_1339f05eece8eb6fb2ef8930ec517533 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5cc12068f3c299944442e49c5218f4df = $(`<div id="html_5cc12068f3c299944442e49c5218f4df" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 46,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_1339f05eece8eb6fb2ef8930ec517533.setContent(html_5cc12068f3c299944442e49c5218f4df);
+            
+
+            marker_87b082f6765ccea1a4177d802c682d17.bindPopup(popup_1339f05eece8eb6fb2ef8930ec517533)
+            ;
+
+            
+        
+    
+        var marker_63a9079a3196251170ae7f2e1bf696ed = L.marker(
+            [52.2328098, 21.019067],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_d3820eac6e1715a7abe37912edbb78ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2a98db7025a65f5caccf4e912e60fd0e = $(`<div id="html_2a98db7025a65f5caccf4e912e60fd0e" style="width: 100.0%; height: 100.0%;"><i>Cena: 839998 Powierzchnia: 40 m² Rok budowy: 1911</i></div>`)[0];
+                popup_d3820eac6e1715a7abe37912edbb78ba.setContent(html_2a98db7025a65f5caccf4e912e60fd0e);
+            
+
+            marker_63a9079a3196251170ae7f2e1bf696ed.bindPopup(popup_d3820eac6e1715a7abe37912edbb78ba)
+            ;
+
+            
+        
+    
+        var marker_2d7e47e9c1602ee89b0511e4f5d1e411 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_6f03521c45c0cc2b85570caa831d54c8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5332282cf6f38d54213b0af9616d1572 = $(`<div id="html_5332282cf6f38d54213b0af9616d1572" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 60,19 m² Rok budowy: nan</i></div>`)[0];
+                popup_6f03521c45c0cc2b85570caa831d54c8.setContent(html_5332282cf6f38d54213b0af9616d1572);
+            
+
+            marker_2d7e47e9c1602ee89b0511e4f5d1e411.bindPopup(popup_6f03521c45c0cc2b85570caa831d54c8)
+            ;
+
+            
+        
+    
+        var marker_aa581e753f7550587627fe0379969b70 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_5a3ed8d5847d22e59e039228493cfb6c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9a4175ad9042ebec818e4aacae07c2eb = $(`<div id="html_9a4175ad9042ebec818e4aacae07c2eb" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 60,92 m² Rok budowy: nan</i></div>`)[0];
+                popup_5a3ed8d5847d22e59e039228493cfb6c.setContent(html_9a4175ad9042ebec818e4aacae07c2eb);
+            
+
+            marker_aa581e753f7550587627fe0379969b70.bindPopup(popup_5a3ed8d5847d22e59e039228493cfb6c)
+            ;
+
+            
+        
+    
+        var marker_321a07fe41898bc6b13ba457a0283941 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ef2197f603f71b8d083cc4e6cb1b91ca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0d63aa3b54aafcc0ea22451cf1047211 = $(`<div id="html_0d63aa3b54aafcc0ea22451cf1047211" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 49,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_ef2197f603f71b8d083cc4e6cb1b91ca.setContent(html_0d63aa3b54aafcc0ea22451cf1047211);
+            
+
+            marker_321a07fe41898bc6b13ba457a0283941.bindPopup(popup_ef2197f603f71b8d083cc4e6cb1b91ca)
+            ;
+
+            
+        
+    
+        var marker_a4126a64717bc88c0303a8a60bca6390 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_073c28ae84978af9c7e2d2b3393c51ef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b854b50bec06b8f9ab8efc597280cae2 = $(`<div id="html_b854b50bec06b8f9ab8efc597280cae2" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 55,81 m² Rok budowy: nan</i></div>`)[0];
+                popup_073c28ae84978af9c7e2d2b3393c51ef.setContent(html_b854b50bec06b8f9ab8efc597280cae2);
+            
+
+            marker_a4126a64717bc88c0303a8a60bca6390.bindPopup(popup_073c28ae84978af9c7e2d2b3393c51ef)
+            ;
+
+            
+        
+    
+        var marker_54a9f10a2d547b91fd3451b5e7c61a4f = L.marker(
+            [52.2417303, 21.0837004],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_f049dfbe9c729adea7752e4607b6af4f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d0599245fde13281fa418dea854a56e6 = $(`<div id="html_d0599245fde13281fa418dea854a56e6" style="width: 100.0%; height: 100.0%;"><i>Cena: 570000 Powierzchnia: 47 m² Rok budowy: 1974</i></div>`)[0];
+                popup_f049dfbe9c729adea7752e4607b6af4f.setContent(html_d0599245fde13281fa418dea854a56e6);
+            
+
+            marker_54a9f10a2d547b91fd3451b5e7c61a4f.bindPopup(popup_f049dfbe9c729adea7752e4607b6af4f)
+            ;
+
+            
+        
+    
+        var marker_704679cedc682f371bf2eb78514d5a30 = L.marker(
+            [52.1609137, 21.0779212],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_e9ff522da133090a6c4f493ce2d7af26 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_218405062a735241a069aee8a003d4ba = $(`<div id="html_218405062a735241a069aee8a003d4ba" style="width: 100.0%; height: 100.0%;"><i>Cena: 2020000 Powierzchnia: 101,2 m² Rok budowy: 2007</i></div>`)[0];
+                popup_e9ff522da133090a6c4f493ce2d7af26.setContent(html_218405062a735241a069aee8a003d4ba);
+            
+
+            marker_704679cedc682f371bf2eb78514d5a30.bindPopup(popup_e9ff522da133090a6c4f493ce2d7af26)
+            ;
+
+            
+        
+    
+        var marker_c4d376e457a6032df606357986640e2d = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_2c40e3666229fc99c698bcca179f1000 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ee2cacd04ab83204f02b9d385e89788 = $(`<div id="html_6ee2cacd04ab83204f02b9d385e89788" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 47,09 m² Rok budowy: nan</i></div>`)[0];
+                popup_2c40e3666229fc99c698bcca179f1000.setContent(html_6ee2cacd04ab83204f02b9d385e89788);
+            
+
+            marker_c4d376e457a6032df606357986640e2d.bindPopup(popup_2c40e3666229fc99c698bcca179f1000)
+            ;
+
+            
+        
+    
+        var marker_26a41cc5a2195d41063abadae5038fde = L.marker(
+            [52.1853816, 20.847603840020692],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_1764da3ce192e91d939ff0df3934e0a5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c67d19fa3837c5ffca665b405d947eba = $(`<div id="html_c67d19fa3837c5ffca665b405d947eba" style="width: 100.0%; height: 100.0%;"><i>Cena: 279000 Powierzchnia: 18,6 m² Rok budowy: 2021</i></div>`)[0];
+                popup_1764da3ce192e91d939ff0df3934e0a5.setContent(html_c67d19fa3837c5ffca665b405d947eba);
+            
+
+            marker_26a41cc5a2195d41063abadae5038fde.bindPopup(popup_1764da3ce192e91d939ff0df3934e0a5)
+            ;
+
+            
+        
+    
+        var marker_1ed194d2aedb7c5160e46b9b7c3c12cc = L.marker(
+            [52.1960985, 20.8828989],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_b9ee3b3457d1ea4f9beed8e662266b91 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ab792317095f7b59ada9f7b9b0e9b0fc = $(`<div id="html_ab792317095f7b59ada9f7b9b0e9b0fc" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 46,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_b9ee3b3457d1ea4f9beed8e662266b91.setContent(html_ab792317095f7b59ada9f7b9b0e9b0fc);
+            
+
+            marker_1ed194d2aedb7c5160e46b9b7c3c12cc.bindPopup(popup_b9ee3b3457d1ea4f9beed8e662266b91)
+            ;
+
+            
+        
+    
+        var marker_46f494accdc3f49046f51761069f3858 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_1c1d7d7027f99f97061f3c1626c04b21 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4eae3148c56d3acf71974d587164468d = $(`<div id="html_4eae3148c56d3acf71974d587164468d" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 100,81 m² Rok budowy: nan</i></div>`)[0];
+                popup_1c1d7d7027f99f97061f3c1626c04b21.setContent(html_4eae3148c56d3acf71974d587164468d);
+            
+
+            marker_46f494accdc3f49046f51761069f3858.bindPopup(popup_1c1d7d7027f99f97061f3c1626c04b21)
+            ;
+
+            
+        
+    
+        var marker_d16cbe7d4ff2b20a39ce5dbcfe123d63 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_c615cc8d53bb355208878c50150d5b09 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0c8a98a485cf2a3dc9f998ebee319978 = $(`<div id="html_0c8a98a485cf2a3dc9f998ebee319978" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 49,65 m² Rok budowy: nan</i></div>`)[0];
+                popup_c615cc8d53bb355208878c50150d5b09.setContent(html_0c8a98a485cf2a3dc9f998ebee319978);
+            
+
+            marker_d16cbe7d4ff2b20a39ce5dbcfe123d63.bindPopup(popup_c615cc8d53bb355208878c50150d5b09)
+            ;
+
+            
+        
+    
+        var marker_405d02575ba7485fe548d7299b78ae0e = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_86818dadf2321e093913d6141b19dec5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bdccefca9d047d3212c0e2adee1e81be = $(`<div id="html_bdccefca9d047d3212c0e2adee1e81be" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 87,67 m² Rok budowy: nan</i></div>`)[0];
+                popup_86818dadf2321e093913d6141b19dec5.setContent(html_bdccefca9d047d3212c0e2adee1e81be);
+            
+
+            marker_405d02575ba7485fe548d7299b78ae0e.bindPopup(popup_86818dadf2321e093913d6141b19dec5)
+            ;
+
+            
+        
+    
+        var marker_ec0673848eb298bae42928ca745d09e4 = L.marker(
+            [52.1530829, 21.1104411],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_7496122c1fe82f722e60351b3dfccc52 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e7c0c381fbe6cb282d85ed9babc0f539 = $(`<div id="html_e7c0c381fbe6cb282d85ed9babc0f539" style="width: 100.0%; height: 100.0%;"><i>Cena: 4750000 Powierzchnia: 242,75 m² Rok budowy: 2021</i></div>`)[0];
+                popup_7496122c1fe82f722e60351b3dfccc52.setContent(html_e7c0c381fbe6cb282d85ed9babc0f539);
+            
+
+            marker_ec0673848eb298bae42928ca745d09e4.bindPopup(popup_7496122c1fe82f722e60351b3dfccc52)
+            ;
+
+            
+        
+    
+        var marker_b6d4959512fc0336d321ed288f83357b = L.marker(
+            [52.1770827, 21.1052581],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_0788445831296548ec5cf5a22a45fd76 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e37800b117ef7fd5ad640411da3adddd = $(`<div id="html_e37800b117ef7fd5ad640411da3adddd" style="width: 100.0%; height: 100.0%;"><i>Cena: 3200000 Powierzchnia: 193,46 m² Rok budowy: 2017</i></div>`)[0];
+                popup_0788445831296548ec5cf5a22a45fd76.setContent(html_e37800b117ef7fd5ad640411da3adddd);
+            
+
+            marker_b6d4959512fc0336d321ed288f83357b.bindPopup(popup_0788445831296548ec5cf5a22a45fd76)
+            ;
+
+            
+        
+    
+        var marker_7d8026cf64c20ab3bad403a79f8950c8 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_4920706190f325b5c4472a13fd4f4508 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f735b3e452bfd2e98486484ccf1e1608 = $(`<div id="html_f735b3e452bfd2e98486484ccf1e1608" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 55,81 m² Rok budowy: nan</i></div>`)[0];
+                popup_4920706190f325b5c4472a13fd4f4508.setContent(html_f735b3e452bfd2e98486484ccf1e1608);
+            
+
+            marker_7d8026cf64c20ab3bad403a79f8950c8.bindPopup(popup_4920706190f325b5c4472a13fd4f4508)
+            ;
+
+            
+        
+    
+        var marker_8687283d9f0ec754bccb384db586b0d9 = L.marker(
+            [52.2041667, 21.0008333],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_48c88a454dbadca4bba22dcfda30c03d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5e173cce84ef8f283f16116250fcd7d0 = $(`<div id="html_5e173cce84ef8f283f16116250fcd7d0" style="width: 100.0%; height: 100.0%;"><i>Cena: 3090000 Powierzchnia: 131,76 m² Rok budowy: 1921</i></div>`)[0];
+                popup_48c88a454dbadca4bba22dcfda30c03d.setContent(html_5e173cce84ef8f283f16116250fcd7d0);
+            
+
+            marker_8687283d9f0ec754bccb384db586b0d9.bindPopup(popup_48c88a454dbadca4bba22dcfda30c03d)
+            ;
+
+            
+        
+    
+        var marker_03246e69889c2070e89fa3207cd942ef = L.marker(
+            [52.1913991, 21.0741113],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_a08e4c5f5252799660efe9fc5f1a5969 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_312f90c519f3e8eec2f141d37b93425e = $(`<div id="html_312f90c519f3e8eec2f141d37b93425e" style="width: 100.0%; height: 100.0%;"><i>Cena: 610000 Powierzchnia: 46,71 m² Rok budowy: 2015</i></div>`)[0];
+                popup_a08e4c5f5252799660efe9fc5f1a5969.setContent(html_312f90c519f3e8eec2f141d37b93425e);
+            
+
+            marker_03246e69889c2070e89fa3207cd942ef.bindPopup(popup_a08e4c5f5252799660efe9fc5f1a5969)
+            ;
+
+            
+        
+    
+        var marker_37814e4065d4cb7bcee8aab094e9b2de = L.marker(
+            [52.2362379, 20.9547815],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_23063cc95ab63b02a33ab312282d3157 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_13d4ccd5eac79814710a209192c4e55b = $(`<div id="html_13d4ccd5eac79814710a209192c4e55b" style="width: 100.0%; height: 100.0%;"><i>Cena: 680000 Powierzchnia: 46,78 m² Rok budowy: 1974</i></div>`)[0];
+                popup_23063cc95ab63b02a33ab312282d3157.setContent(html_13d4ccd5eac79814710a209192c4e55b);
+            
+
+            marker_37814e4065d4cb7bcee8aab094e9b2de.bindPopup(popup_23063cc95ab63b02a33ab312282d3157)
+            ;
+
+            
+        
+    
+        var marker_8535703ccf474193545e4bb4ade3bac3 = L.marker(
+            [52.2362379, 20.9547815],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_87b47c28f4661d5778889680d219c586 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3b081eeb65810726ab346ac395c9c4d8 = $(`<div id="html_3b081eeb65810726ab346ac395c9c4d8" style="width: 100.0%; height: 100.0%;"><i>Cena: 550000 Powierzchnia: 29 m² Rok budowy: 2018</i></div>`)[0];
+                popup_87b47c28f4661d5778889680d219c586.setContent(html_3b081eeb65810726ab346ac395c9c4d8);
+            
+
+            marker_8535703ccf474193545e4bb4ade3bac3.bindPopup(popup_87b47c28f4661d5778889680d219c586)
+            ;
+
+            
+        
+    
+        var marker_7388d1fa3ad0ecf0f83508bdfa5d14d1 = L.marker(
+            [52.3206463, 21.0665357],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_fef3ac7a2a5254b42e772fa1eeac0fe3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6c2b3c4f33203a6780e41882f3308fad = $(`<div id="html_6c2b3c4f33203a6780e41882f3308fad" style="width: 100.0%; height: 100.0%;"><i>Cena: 850000 Powierzchnia: 66,19 m² Rok budowy: 2001</i></div>`)[0];
+                popup_fef3ac7a2a5254b42e772fa1eeac0fe3.setContent(html_6c2b3c4f33203a6780e41882f3308fad);
+            
+
+            marker_7388d1fa3ad0ecf0f83508bdfa5d14d1.bindPopup(popup_fef3ac7a2a5254b42e772fa1eeac0fe3)
+            ;
+
+            
+        
+    
+        var marker_6668ca4e1c6aad905340202ba31a6e96 = L.marker(
+            [52.3315662, 21.0206194],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_79f2d336d699638b74cdde09ecd76fd5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_59c4cbebda62656cbe12003a1effb421 = $(`<div id="html_59c4cbebda62656cbe12003a1effb421" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 39,6 m² Rok budowy: nan</i></div>`)[0];
+                popup_79f2d336d699638b74cdde09ecd76fd5.setContent(html_59c4cbebda62656cbe12003a1effb421);
+            
+
+            marker_6668ca4e1c6aad905340202ba31a6e96.bindPopup(popup_79f2d336d699638b74cdde09ecd76fd5)
+            ;
+
+            
+        
+    
+        var marker_7d36e67c8f013b7f700224d1ba58be5f = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_0347a5233aa1dea179895ccd2552edcd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_09ec525295efb8605f1cb225f01f6c19 = $(`<div id="html_09ec525295efb8605f1cb225f01f6c19" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 76,87 m² Rok budowy: nan</i></div>`)[0];
+                popup_0347a5233aa1dea179895ccd2552edcd.setContent(html_09ec525295efb8605f1cb225f01f6c19);
+            
+
+            marker_7d36e67c8f013b7f700224d1ba58be5f.bindPopup(popup_0347a5233aa1dea179895ccd2552edcd)
+            ;
+
+            
+        
+    
+        var marker_d1e50685ac573c2df52ebc510f15a0ba = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_9eee810de6f0eee7225c1ceb72a9240e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af1a63a5914936a3c14ad05da57a4983 = $(`<div id="html_af1a63a5914936a3c14ad05da57a4983" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 58,25 m² Rok budowy: nan</i></div>`)[0];
+                popup_9eee810de6f0eee7225c1ceb72a9240e.setContent(html_af1a63a5914936a3c14ad05da57a4983);
+            
+
+            marker_d1e50685ac573c2df52ebc510f15a0ba.bindPopup(popup_9eee810de6f0eee7225c1ceb72a9240e)
+            ;
+
+            
+        
+    
+        var marker_2b75fdcb9e5693ca2e8b41380bcde7d4 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_c48fef4e7fd54c664fe5df330a6746e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8ec8985970f425c61d8434927d8c6832 = $(`<div id="html_8ec8985970f425c61d8434927d8c6832" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 80,87 m² Rok budowy: nan</i></div>`)[0];
+                popup_c48fef4e7fd54c664fe5df330a6746e3.setContent(html_8ec8985970f425c61d8434927d8c6832);
+            
+
+            marker_2b75fdcb9e5693ca2e8b41380bcde7d4.bindPopup(popup_c48fef4e7fd54c664fe5df330a6746e3)
+            ;
+
+            
+        
+    
+        var marker_207d1b34e40d363d9f8b4719fad25cb7 = L.marker(
+            [52.1567571, 21.0226914],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_cf73ac7726dc720e3a8ec768bd8df0c0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_da0ef7767a75b0da875b18c4fe143be8 = $(`<div id="html_da0ef7767a75b0da875b18c4fe143be8" style="width: 100.0%; height: 100.0%;"><i>Cena: 690000 Powierzchnia: 52,8 m² Rok budowy: 1980</i></div>`)[0];
+                popup_cf73ac7726dc720e3a8ec768bd8df0c0.setContent(html_da0ef7767a75b0da875b18c4fe143be8);
+            
+
+            marker_207d1b34e40d363d9f8b4719fad25cb7.bindPopup(popup_cf73ac7726dc720e3a8ec768bd8df0c0)
+            ;
+
+            
+        
+    
+        var marker_826ee49c9b467612e9ce7b7bcb373ea9 = L.marker(
+            [52.3185696, 20.9523032],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_5c2c3a966f6df2fb71351bf085622476 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0bc41a5359401f1c15338d082f2ece36 = $(`<div id="html_0bc41a5359401f1c15338d082f2ece36" style="width: 100.0%; height: 100.0%;"><i>Cena: 650000 Powierzchnia: 56,28 m² Rok budowy: 2010</i></div>`)[0];
+                popup_5c2c3a966f6df2fb71351bf085622476.setContent(html_0bc41a5359401f1c15338d082f2ece36);
+            
+
+            marker_826ee49c9b467612e9ce7b7bcb373ea9.bindPopup(popup_5c2c3a966f6df2fb71351bf085622476)
+            ;
+
+            
+        
+    
+        var marker_85fdad7f18d7a4bd3ccf462b3730e961 = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_4c303b800180e09da7d7f2fcd5114bbb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2bf0f1c991857ce4ff48971e7e536e46 = $(`<div id="html_2bf0f1c991857ce4ff48971e7e536e46" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 35,67 m² Rok budowy: 2024</i></div>`)[0];
+                popup_4c303b800180e09da7d7f2fcd5114bbb.setContent(html_2bf0f1c991857ce4ff48971e7e536e46);
+            
+
+            marker_85fdad7f18d7a4bd3ccf462b3730e961.bindPopup(popup_4c303b800180e09da7d7f2fcd5114bbb)
+            ;
+
+            
+        
+    
+        var marker_5b4b1c44a056d754a95579fa711f226e = L.marker(
+            [52.3315662, 21.0206194],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_e7bff909625249bc925273e1ce198241 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7b0999ab6da1bfc124229c930ada2972 = $(`<div id="html_7b0999ab6da1bfc124229c930ada2972" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 46,09 m² Rok budowy: nan</i></div>`)[0];
+                popup_e7bff909625249bc925273e1ce198241.setContent(html_7b0999ab6da1bfc124229c930ada2972);
+            
+
+            marker_5b4b1c44a056d754a95579fa711f226e.bindPopup(popup_e7bff909625249bc925273e1ce198241)
+            ;
+
+            
+        
+    
+        var marker_d4460df856cc43d5216a48ae88463cb5 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_378dbf630c731742c1336e79c749f4d1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_14b84f4dac9b55f9e04fd72bd0c93a36 = $(`<div id="html_14b84f4dac9b55f9e04fd72bd0c93a36" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 99,04 m² Rok budowy: nan</i></div>`)[0];
+                popup_378dbf630c731742c1336e79c749f4d1.setContent(html_14b84f4dac9b55f9e04fd72bd0c93a36);
+            
+
+            marker_d4460df856cc43d5216a48ae88463cb5.bindPopup(popup_378dbf630c731742c1336e79c749f4d1)
+            ;
+
+            
+        
+    
+        var marker_8292a1d13c441ef94dc06d75d45de8f5 = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_98a0a8e42b6d84367e21d942824e9e77 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5adfd07dd22c9b2348193c2fb6041458 = $(`<div id="html_5adfd07dd22c9b2348193c2fb6041458" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 70,52 m² Rok budowy: 2024</i></div>`)[0];
+                popup_98a0a8e42b6d84367e21d942824e9e77.setContent(html_5adfd07dd22c9b2348193c2fb6041458);
+            
+
+            marker_8292a1d13c441ef94dc06d75d45de8f5.bindPopup(popup_98a0a8e42b6d84367e21d942824e9e77)
+            ;
+
+            
+        
+    
+        var marker_762e890c1e833fd6b34c1ca21f57fac4 = L.marker(
+            [52.1846069, 21.015535],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ec302b746f22cb1b059fbe759dc10cfe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e54d7cc48a4418f51a301536c8350368 = $(`<div id="html_e54d7cc48a4418f51a301536c8350368" style="width: 100.0%; height: 100.0%;"><i>Cena: 365000 Powierzchnia: 24,3 m² Rok budowy: 1963</i></div>`)[0];
+                popup_ec302b746f22cb1b059fbe759dc10cfe.setContent(html_e54d7cc48a4418f51a301536c8350368);
+            
+
+            marker_762e890c1e833fd6b34c1ca21f57fac4.bindPopup(popup_ec302b746f22cb1b059fbe759dc10cfe)
+            ;
+
+            
+        
+    
+        var marker_8e93da3bd7d9d330853a8d5a170f34aa = L.marker(
+            [52.3468689, 21.2420179],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_067a107c67066138504fe499040bf046 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d6e10dedacaba20c630dc59a9c16b47 = $(`<div id="html_1d6e10dedacaba20c630dc59a9c16b47" style="width: 100.0%; height: 100.0%;"><i>Cena: 320000 Powierzchnia: 50 m² Rok budowy: 1980</i></div>`)[0];
+                popup_067a107c67066138504fe499040bf046.setContent(html_1d6e10dedacaba20c630dc59a9c16b47);
+            
+
+            marker_8e93da3bd7d9d330853a8d5a170f34aa.bindPopup(popup_067a107c67066138504fe499040bf046)
+            ;
+
+            
+        
+    
+        var marker_e9957e059c709c6258e1c8dbbcbd5f8e = L.marker(
+            [52.2080548, 20.7941606],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ab9058c98737a6b544b7f71b464b3e86 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cc6de0f5f4803b8518fa866b57d5c832 = $(`<div id="html_cc6de0f5f4803b8518fa866b57d5c832" style="width: 100.0%; height: 100.0%;"><i>Cena: 489000 Powierzchnia: 71,14 m² Rok budowy: nan</i></div>`)[0];
+                popup_ab9058c98737a6b544b7f71b464b3e86.setContent(html_cc6de0f5f4803b8518fa866b57d5c832);
+            
+
+            marker_e9957e059c709c6258e1c8dbbcbd5f8e.bindPopup(popup_ab9058c98737a6b544b7f71b464b3e86)
+            ;
+
+            
+        
+    
+        var marker_6c5b9c17fb4061e11063ae4ff6f62fe0 = L.marker(
+            [52.1973269, 20.9774094],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_7b75d51d48e1853db3439a06f4ea6125 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f91b9f01873fb1e40e35d80f6b41dc7 = $(`<div id="html_0f91b9f01873fb1e40e35d80f6b41dc7" style="width: 100.0%; height: 100.0%;"><i>Cena: 560000 Powierzchnia: 36 m² Rok budowy: 1966</i></div>`)[0];
+                popup_7b75d51d48e1853db3439a06f4ea6125.setContent(html_0f91b9f01873fb1e40e35d80f6b41dc7);
+            
+
+            marker_6c5b9c17fb4061e11063ae4ff6f62fe0.bindPopup(popup_7b75d51d48e1853db3439a06f4ea6125)
+            ;
+
+            
+        
+    
+        var marker_a2ae6e9efbe7f0b24447ab8bb1570817 = L.marker(
+            [52.2389738, 20.9132881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_dc74ebaa77e0f17ea01b941924762bb7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6c1664c0810ebfdc63c5607802f5dca7 = $(`<div id="html_6c1664c0810ebfdc63c5607802f5dca7" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 67,11 m² Rok budowy: 2024</i></div>`)[0];
+                popup_dc74ebaa77e0f17ea01b941924762bb7.setContent(html_6c1664c0810ebfdc63c5607802f5dca7);
+            
+
+            marker_a2ae6e9efbe7f0b24447ab8bb1570817.bindPopup(popup_dc74ebaa77e0f17ea01b941924762bb7)
+            ;
+
+            
+        
+    
+        var marker_b6aec2e02258ba441405e4c5684823bf = L.marker(
+            [52.2743139, 21.0411001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_459280e0f13991e9828ec01e7d6f56e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0a9a2a3baeb8002e4a07a34f294b9d9b = $(`<div id="html_0a9a2a3baeb8002e4a07a34f294b9d9b" style="width: 100.0%; height: 100.0%;"><i>Cena: 1400000 Powierzchnia: 92 m² Rok budowy: 2018</i></div>`)[0];
+                popup_459280e0f13991e9828ec01e7d6f56e3.setContent(html_0a9a2a3baeb8002e4a07a34f294b9d9b);
+            
+
+            marker_b6aec2e02258ba441405e4c5684823bf.bindPopup(popup_459280e0f13991e9828ec01e7d6f56e3)
+            ;
+
+            
+        
+    
+        var marker_6052cbf87fc0beb807d1729014fe2b31 = L.marker(
+            [52.1939874, 21.0457809],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_47650c8e0b6a32d0edb9d84626a402ad = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d50d46a4c09b2fc0b9d5ba59205fb37 = $(`<div id="html_1d50d46a4c09b2fc0b9d5ba59205fb37" style="width: 100.0%; height: 100.0%;"><i>Cena: 609000 Powierzchnia: 39 m² Rok budowy: 1959</i></div>`)[0];
+                popup_47650c8e0b6a32d0edb9d84626a402ad.setContent(html_1d50d46a4c09b2fc0b9d5ba59205fb37);
+            
+
+            marker_6052cbf87fc0beb807d1729014fe2b31.bindPopup(popup_47650c8e0b6a32d0edb9d84626a402ad)
+            ;
+
+            
+        
+    
+        var marker_786c05ad15b7b8633125ad291db9052e = L.marker(
+            [52.2751918, 21.0580854],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_bb48f7c00c99eea4e595bf44249d5257 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0d40e1f1e80b2dd824f5f61fd2ed675d = $(`<div id="html_0d40e1f1e80b2dd824f5f61fd2ed675d" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 29,44 m² Rok budowy: nan</i></div>`)[0];
+                popup_bb48f7c00c99eea4e595bf44249d5257.setContent(html_0d40e1f1e80b2dd824f5f61fd2ed675d);
+            
+
+            marker_786c05ad15b7b8633125ad291db9052e.bindPopup(popup_bb48f7c00c99eea4e595bf44249d5257)
+            ;
+
+            
+        
+    
+        var marker_da318433383f0b334588c215c936695e = L.marker(
+            [52.15783525, 21.07685721933482],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_26082a097152b3773ca7f14d8dcfe477 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_61e0166e2fcda029af60ec3f1e85073d = $(`<div id="html_61e0166e2fcda029af60ec3f1e85073d" style="width: 100.0%; height: 100.0%;"><i>Cena: 1710000 Powierzchnia: 82 m² Rok budowy: 2021</i></div>`)[0];
+                popup_26082a097152b3773ca7f14d8dcfe477.setContent(html_61e0166e2fcda029af60ec3f1e85073d);
+            
+
+            marker_da318433383f0b334588c215c936695e.bindPopup(popup_26082a097152b3773ca7f14d8dcfe477)
+            ;
+
+            
+        
+    
+        var marker_ed09ef3c5c2276ab09d1866e5088df64 = L.marker(
+            [52.1537258, 21.083912],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_61d3a51b6474530060884f238fc17779 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_27c92961c1a7fc03a884d1ee33dc3938 = $(`<div id="html_27c92961c1a7fc03a884d1ee33dc3938" style="width: 100.0%; height: 100.0%;"><i>Cena: 693617 Powierzchnia: 41,41 m² Rok budowy: brak informacji</i></div>`)[0];
+                popup_61d3a51b6474530060884f238fc17779.setContent(html_27c92961c1a7fc03a884d1ee33dc3938);
+            
+
+            marker_ed09ef3c5c2276ab09d1866e5088df64.bindPopup(popup_61d3a51b6474530060884f238fc17779)
+            ;
+
+            
+        
+    
+        var marker_8b9b2e1abfec084d1596f93b32c5e8f5 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_6aa22728d54907ef4e069f3a5a9e7927 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_88df09cd23ffdcda16dfe020b01cb877 = $(`<div id="html_88df09cd23ffdcda16dfe020b01cb877" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 67,54 m² Rok budowy: nan</i></div>`)[0];
+                popup_6aa22728d54907ef4e069f3a5a9e7927.setContent(html_88df09cd23ffdcda16dfe020b01cb877);
+            
+
+            marker_8b9b2e1abfec084d1596f93b32c5e8f5.bindPopup(popup_6aa22728d54907ef4e069f3a5a9e7927)
+            ;
+
+            
+        
+    
+        var marker_f414315bc9319f24dd484751cb249185 = L.marker(
+            [52.1609137, 21.0779212],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_5776a12c4dbf1b3071dae9a77f5e3023 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ed7ed23b73f27cdc973f936a0fdd72c4 = $(`<div id="html_ed7ed23b73f27cdc973f936a0fdd72c4" style="width: 100.0%; height: 100.0%;"><i>Cena: 1810000 Powierzchnia: 82,5 m² Rok budowy: 2010</i></div>`)[0];
+                popup_5776a12c4dbf1b3071dae9a77f5e3023.setContent(html_ed7ed23b73f27cdc973f936a0fdd72c4);
+            
+
+            marker_f414315bc9319f24dd484751cb249185.bindPopup(popup_5776a12c4dbf1b3071dae9a77f5e3023)
+            ;
+
+            
+        
+    
+        var marker_c71e41c8552badc9778bf724512c3b37 = L.marker(
+            [52.2080548, 20.7941606],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_61ade96bf53d14f8f64e15f12f168f4a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1164ef87fa39c42b6f9b392ec22de10d = $(`<div id="html_1164ef87fa39c42b6f9b392ec22de10d" style="width: 100.0%; height: 100.0%;"><i>Cena: 499000 Powierzchnia: 72,53 m² Rok budowy: nan</i></div>`)[0];
+                popup_61ade96bf53d14f8f64e15f12f168f4a.setContent(html_1164ef87fa39c42b6f9b392ec22de10d);
+            
+
+            marker_c71e41c8552badc9778bf724512c3b37.bindPopup(popup_61ade96bf53d14f8f64e15f12f168f4a)
+            ;
+
+            
+        
+    
+        var marker_1db7bc4c1c259793c331e21d3387ffed = L.marker(
+            [52.2475878, 20.9840958],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_746dc5868a43faeb45b6a3dfa40223a3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1864c4ab0b49b14c1bf63b7f1102282e = $(`<div id="html_1864c4ab0b49b14c1bf63b7f1102282e" style="width: 100.0%; height: 100.0%;"><i>Cena: 435000 Powierzchnia: 26,5 m² Rok budowy: 1972</i></div>`)[0];
+                popup_746dc5868a43faeb45b6a3dfa40223a3.setContent(html_1864c4ab0b49b14c1bf63b7f1102282e);
+            
+
+            marker_1db7bc4c1c259793c331e21d3387ffed.bindPopup(popup_746dc5868a43faeb45b6a3dfa40223a3)
+            ;
+
+            
+        
+    
+        var marker_3c0b828e98a154f7fa08cb424526e42a = L.marker(
+            [52.2998629, 21.0490613],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_e18e0ea5a30efe284fff79c7c411bb5e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_499edcab9f4901de2753906d0a7aad76 = $(`<div id="html_499edcab9f4901de2753906d0a7aad76" style="width: 100.0%; height: 100.0%;"><i>Cena: 480000 Powierzchnia: 43,1 m² Rok budowy: 1977</i></div>`)[0];
+                popup_e18e0ea5a30efe284fff79c7c411bb5e.setContent(html_499edcab9f4901de2753906d0a7aad76);
+            
+
+            marker_3c0b828e98a154f7fa08cb424526e42a.bindPopup(popup_e18e0ea5a30efe284fff79c7c411bb5e)
+            ;
+
+            
+        
+    
+        var marker_f633d0da804c3c6e02d8ab65dd16874b = L.marker(
+            [52.2135817, 20.8074948],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_61a1208829683b9021c28148b6c2206b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1710cf56d6af954d74180da4851c5268 = $(`<div id="html_1710cf56d6af954d74180da4851c5268" style="width: 100.0%; height: 100.0%;"><i>Cena: 460000 Powierzchnia: 56,7 m² Rok budowy: 2000</i></div>`)[0];
+                popup_61a1208829683b9021c28148b6c2206b.setContent(html_1710cf56d6af954d74180da4851c5268);
+            
+
+            marker_f633d0da804c3c6e02d8ab65dd16874b.bindPopup(popup_61a1208829683b9021c28148b6c2206b)
+            ;
+
+            
+        
+    
+        var marker_b1bd78dc736c855835a5102f1c54eab2 = L.marker(
+            [52.2759762, 20.9632951],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_5001393a9ec0e49d37f483b6ee7f5cee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7d465401bb365fc71ec84aeff3ad4af7 = $(`<div id="html_7d465401bb365fc71ec84aeff3ad4af7" style="width: 100.0%; height: 100.0%;"><i>Cena: 495000 Powierzchnia: 39 m² Rok budowy: 1969</i></div>`)[0];
+                popup_5001393a9ec0e49d37f483b6ee7f5cee.setContent(html_7d465401bb365fc71ec84aeff3ad4af7);
+            
+
+            marker_b1bd78dc736c855835a5102f1c54eab2.bindPopup(popup_5001393a9ec0e49d37f483b6ee7f5cee)
+            ;
+
+            
+        
+    
+        var marker_ba77f30dd69de8c6c31d02ac0a3e4c9a = L.marker(
+            [52.1960985, 20.8828989],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_a6bb73687311c396169de43bc32e49f5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c89b440eb72d9422f0bad68202968aa7 = $(`<div id="html_c89b440eb72d9422f0bad68202968aa7" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 52,66 m² Rok budowy: nan</i></div>`)[0];
+                popup_a6bb73687311c396169de43bc32e49f5.setContent(html_c89b440eb72d9422f0bad68202968aa7);
+            
+
+            marker_ba77f30dd69de8c6c31d02ac0a3e4c9a.bindPopup(popup_a6bb73687311c396169de43bc32e49f5)
+            ;
+
+            
+        
+    
+        var marker_267f6a1d5b8ea221591046ec1f18cded = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_e1f377d235512057b69f02dde7036889 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4f4bce70eb4296f29a452e57a03bfaf5 = $(`<div id="html_4f4bce70eb4296f29a452e57a03bfaf5" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 116,72 m² Rok budowy: nan</i></div>`)[0];
+                popup_e1f377d235512057b69f02dde7036889.setContent(html_4f4bce70eb4296f29a452e57a03bfaf5);
+            
+
+            marker_267f6a1d5b8ea221591046ec1f18cded.bindPopup(popup_e1f377d235512057b69f02dde7036889)
+            ;
+
+            
+        
+    
+        var marker_1bbe5e7ed967cc8afc1a9849d668a52a = L.marker(
+            [52.2337417, 20.9983392],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_598adc84f5fd916f9e5dc5afe2797030 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3001bfc59c7294af188bea391fe965a6 = $(`<div id="html_3001bfc59c7294af188bea391fe965a6" style="width: 100.0%; height: 100.0%;"><i>Cena: 1429000 Powierzchnia: 120,2 m² Rok budowy: 1998</i></div>`)[0];
+                popup_598adc84f5fd916f9e5dc5afe2797030.setContent(html_3001bfc59c7294af188bea391fe965a6);
+            
+
+            marker_1bbe5e7ed967cc8afc1a9849d668a52a.bindPopup(popup_598adc84f5fd916f9e5dc5afe2797030)
+            ;
+
+            
+        
+    
+        var marker_265bb9d886442c47fb025a38e0afc850 = L.marker(
+            [52.2614149, 21.1628191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_7cb0d9aadaf415cad54829ef45c462bf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c23f3677cca4e94b8064cbaf1045c7af = $(`<div id="html_c23f3677cca4e94b8064cbaf1045c7af" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 69,49 m² Rok budowy: nan</i></div>`)[0];
+                popup_7cb0d9aadaf415cad54829ef45c462bf.setContent(html_c23f3677cca4e94b8064cbaf1045c7af);
+            
+
+            marker_265bb9d886442c47fb025a38e0afc850.bindPopup(popup_7cb0d9aadaf415cad54829ef45c462bf)
+            ;
+
+            
+        
+    
+        var marker_81dde07a8745651a4a5c8ee1671f436d = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_e0020e2284be4cca4fec1ae8f78832a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_944f418b66a994c49304c98779733676 = $(`<div id="html_944f418b66a994c49304c98779733676" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 92,09 m² Rok budowy: nan</i></div>`)[0];
+                popup_e0020e2284be4cca4fec1ae8f78832a2.setContent(html_944f418b66a994c49304c98779733676);
+            
+
+            marker_81dde07a8745651a4a5c8ee1671f436d.bindPopup(popup_e0020e2284be4cca4fec1ae8f78832a2)
+            ;
+
+            
+        
+    
+        var marker_be22567414b924f6632236d05463cc73 = L.marker(
+            [52.0939568, 20.967606],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_a5af7cb2df246312d6606b65691d4663 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f93d60123c9503d44868f397aa0ec5d = $(`<div id="html_0f93d60123c9503d44868f397aa0ec5d" style="width: 100.0%; height: 100.0%;"><i>Cena: 499900 Powierzchnia: 63,8 m² Rok budowy: 2022</i></div>`)[0];
+                popup_a5af7cb2df246312d6606b65691d4663.setContent(html_0f93d60123c9503d44868f397aa0ec5d);
+            
+
+            marker_be22567414b924f6632236d05463cc73.bindPopup(popup_a5af7cb2df246312d6606b65691d4663)
+            ;
+
+            
+        
+    
+        var marker_e9fb42e97900f3fccd38fea5e03314b2 = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_e05742f0638bb1282546a4108dc9d614 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c085bdd2b3477dfe2df3d4d541292947 = $(`<div id="html_c085bdd2b3477dfe2df3d4d541292947" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 27,06 m² Rok budowy: nan</i></div>`)[0];
+                popup_e05742f0638bb1282546a4108dc9d614.setContent(html_c085bdd2b3477dfe2df3d4d541292947);
+            
+
+            marker_e9fb42e97900f3fccd38fea5e03314b2.bindPopup(popup_e05742f0638bb1282546a4108dc9d614)
+            ;
+
+            
+        
+    
+        var marker_1fc92b4467277a5ec4d206e22b70f18f = L.marker(
+            [52.239354, 20.939555],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_27f2ea278409abd0faab43e464aada02 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0873a9debe54c5de738a8d2a570ab1b9 = $(`<div id="html_0873a9debe54c5de738a8d2a570ab1b9" style="width: 100.0%; height: 100.0%;"><i>Cena: 499000 Powierzchnia: 37,1 m² Rok budowy: 1972</i></div>`)[0];
+                popup_27f2ea278409abd0faab43e464aada02.setContent(html_0873a9debe54c5de738a8d2a570ab1b9);
+            
+
+            marker_1fc92b4467277a5ec4d206e22b70f18f.bindPopup(popup_27f2ea278409abd0faab43e464aada02)
+            ;
+
+            
+        
+    
+        var marker_7247fb72b1875175a847ac779d36cef2 = L.marker(
+            [52.2447213, 21.0779581],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_36682c8d331a352e64989d1f8e1254e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_31f93f165685d062c9282a83f4afc204 = $(`<div id="html_31f93f165685d062c9282a83f4afc204" style="width: 100.0%; height: 100.0%;"><i>Cena: 509000 Powierzchnia: 45 m² Rok budowy: 1955</i></div>`)[0];
+                popup_36682c8d331a352e64989d1f8e1254e6.setContent(html_31f93f165685d062c9282a83f4afc204);
+            
+
+            marker_7247fb72b1875175a847ac779d36cef2.bindPopup(popup_36682c8d331a352e64989d1f8e1254e6)
+            ;
+
+            
+        
+    
+        var marker_ea75ac860dd04ccb3dbc07eafd4d13cc = L.marker(
+            [52.1992192, 20.9811058],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_e091fb552531d4c7e6495dd2d8f574de = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1bdd77cea98d985bad5fdd5c4c8105cd = $(`<div id="html_1bdd77cea98d985bad5fdd5c4c8105cd" style="width: 100.0%; height: 100.0%;"><i>Cena: 329000 Powierzchnia: 19 m² Rok budowy: 1970</i></div>`)[0];
+                popup_e091fb552531d4c7e6495dd2d8f574de.setContent(html_1bdd77cea98d985bad5fdd5c4c8105cd);
+            
+
+            marker_ea75ac860dd04ccb3dbc07eafd4d13cc.bindPopup(popup_e091fb552531d4c7e6495dd2d8f574de)
+            ;
+
+            
+        
+    
+        var marker_59870f53032b4b02da6e6cddcdd2c2e1 = L.marker(
+            [52.0939568, 20.967606],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_ee8d60cee9f5842c6e388c18e34e4c2d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3f819f8d4a32cf4b722da40e71b1e36a = $(`<div id="html_3f819f8d4a32cf4b722da40e71b1e36a" style="width: 100.0%; height: 100.0%;"><i>Cena: 499900 Powierzchnia: 63,8 m² Rok budowy: 2022</i></div>`)[0];
+                popup_ee8d60cee9f5842c6e388c18e34e4c2d.setContent(html_3f819f8d4a32cf4b722da40e71b1e36a);
+            
+
+            marker_59870f53032b4b02da6e6cddcdd2c2e1.bindPopup(popup_ee8d60cee9f5842c6e388c18e34e4c2d)
+            ;
+
+            
+        
+    
+        var marker_184e444dfc5b7d3fcde3ac7d05ee52a3 = L.marker(
+            [52.2372247, 21.0028716],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_095fdf2f5bc4afe3069e312245e91242 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_acb4f18597fa75f021479594fb1cf948 = $(`<div id="html_acb4f18597fa75f021479594fb1cf948" style="width: 100.0%; height: 100.0%;"><i>Cena: 669000 Powierzchnia: 48,07 m² Rok budowy: 1972</i></div>`)[0];
+                popup_095fdf2f5bc4afe3069e312245e91242.setContent(html_acb4f18597fa75f021479594fb1cf948);
+            
+
+            marker_184e444dfc5b7d3fcde3ac7d05ee52a3.bindPopup(popup_095fdf2f5bc4afe3069e312245e91242)
+            ;
+
+            
+        
+    
+        var marker_78ef288d12e5252b136948df09d97539 = L.marker(
+            [52.1846445, 21.0117872],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8bf116cc97852412d557bc60c8fbb3dc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_05f513dcaee2179fed2254fbf0c07cbe = $(`<div id="html_05f513dcaee2179fed2254fbf0c07cbe" style="width: 100.0%; height: 100.0%;"><i>Cena: 1159000 Powierzchnia: 78 m² Rok budowy: 2020</i></div>`)[0];
+                popup_8bf116cc97852412d557bc60c8fbb3dc.setContent(html_05f513dcaee2179fed2254fbf0c07cbe);
+            
+
+            marker_78ef288d12e5252b136948df09d97539.bindPopup(popup_8bf116cc97852412d557bc60c8fbb3dc)
+            ;
+
+            
+        
+    
+        var marker_89b982be80e5a386fc695c26539eef89 = L.marker(
+            [52.1372671, 21.0578355],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_d2f7b6560654f09ef2ce25eddc1b9ecf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_251fbf8c6fcc8c605813ef8860b26d7f = $(`<div id="html_251fbf8c6fcc8c605813ef8860b26d7f" style="width: 100.0%; height: 100.0%;"><i>Cena: 849000 Powierzchnia: 74,2 m² Rok budowy: brak informacji</i></div>`)[0];
+                popup_d2f7b6560654f09ef2ce25eddc1b9ecf.setContent(html_251fbf8c6fcc8c605813ef8860b26d7f);
+            
+
+            marker_89b982be80e5a386fc695c26539eef89.bindPopup(popup_d2f7b6560654f09ef2ce25eddc1b9ecf)
+            ;
+
+            
+        
+    
+        var marker_df2a00c00abdd8be232e83f63e0d3728 = L.marker(
+            [52.0939568, 20.967606],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8518bf7ea68014f0fd9ec0dcffee641c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f81129c84db3b09cc66bf4346e193e60 = $(`<div id="html_f81129c84db3b09cc66bf4346e193e60" style="width: 100.0%; height: 100.0%;"><i>Cena: 499900 Powierzchnia: 63,8 m² Rok budowy: 2022</i></div>`)[0];
+                popup_8518bf7ea68014f0fd9ec0dcffee641c.setContent(html_f81129c84db3b09cc66bf4346e193e60);
+            
+
+            marker_df2a00c00abdd8be232e83f63e0d3728.bindPopup(popup_8518bf7ea68014f0fd9ec0dcffee641c)
+            ;
+
+            
+        
+    
+        var marker_cfb57d889664fdbdf597e542af24327b = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_73d447be64d034029b2da34fe78d0efe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5a0248880103b6c7fcf1f87a1d1ead69 = $(`<div id="html_5a0248880103b6c7fcf1f87a1d1ead69" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 90,54 m² Rok budowy: nan</i></div>`)[0];
+                popup_73d447be64d034029b2da34fe78d0efe.setContent(html_5a0248880103b6c7fcf1f87a1d1ead69);
+            
+
+            marker_cfb57d889664fdbdf597e542af24327b.bindPopup(popup_73d447be64d034029b2da34fe78d0efe)
+            ;
+
+            
+        
+    
+        var marker_45579a5d2de4e62b1e51d06a812449fd = L.marker(
+            [52.3315662, 21.0206194],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_d6983affcc79cf6329ace9685edceb03 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8cb793302fe9ae7db8227f5766e066e4 = $(`<div id="html_8cb793302fe9ae7db8227f5766e066e4" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 75,22 m² Rok budowy: nan</i></div>`)[0];
+                popup_d6983affcc79cf6329ace9685edceb03.setContent(html_8cb793302fe9ae7db8227f5766e066e4);
+            
+
+            marker_45579a5d2de4e62b1e51d06a812449fd.bindPopup(popup_d6983affcc79cf6329ace9685edceb03)
+            ;
+
+            
+        
+    
+        var marker_3b311d15ce496778908d3b614ce40218 = L.marker(
+            [52.1946065, 20.6169694],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_a57126ac04738934b23406dc3e2ede4e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ca0904a172a549e45c9f22e1e616b6fd = $(`<div id="html_ca0904a172a549e45c9f22e1e616b6fd" style="width: 100.0%; height: 100.0%;"><i>Cena: 439890 Powierzchnia: 68,2 m² Rok budowy: nan</i></div>`)[0];
+                popup_a57126ac04738934b23406dc3e2ede4e.setContent(html_ca0904a172a549e45c9f22e1e616b6fd);
+            
+
+            marker_3b311d15ce496778908d3b614ce40218.bindPopup(popup_a57126ac04738934b23406dc3e2ede4e)
+            ;
+
+            
+        
+    
+        var marker_ebe2b0531c12a7ea969225304c6fd887 = L.marker(
+            [52.3315662, 21.0206194],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_d78b0b762787c3fa2606370df13e47ae = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_68600742a0d96704e13e223cccc0cbbc = $(`<div id="html_68600742a0d96704e13e223cccc0cbbc" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 61,14 m² Rok budowy: nan</i></div>`)[0];
+                popup_d78b0b762787c3fa2606370df13e47ae.setContent(html_68600742a0d96704e13e223cccc0cbbc);
+            
+
+            marker_ebe2b0531c12a7ea969225304c6fd887.bindPopup(popup_d78b0b762787c3fa2606370df13e47ae)
+            ;
+
+            
+        
+    
+        var marker_f57b94858f094e2752a744a0b952840f = L.marker(
+            [52.1861093, 20.9484377],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_02260f6a0764bb405eba6e4676583f77 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_00ff718a0048e04ebc2cf22282273205 = $(`<div id="html_00ff718a0048e04ebc2cf22282273205" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 43,1 m² Rok budowy: nan</i></div>`)[0];
+                popup_02260f6a0764bb405eba6e4676583f77.setContent(html_00ff718a0048e04ebc2cf22282273205);
+            
+
+            marker_f57b94858f094e2752a744a0b952840f.bindPopup(popup_02260f6a0764bb405eba6e4676583f77)
+            ;
+
+            
+        
+    
+        var marker_b1ef21963f06e9546ed2f5dc9685f595 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_bfe82868a38d3e9a71878e696d1467eb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6931e2adb03b503e4723e691407163c4 = $(`<div id="html_6931e2adb03b503e4723e691407163c4" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 52,91 m² Rok budowy: nan</i></div>`)[0];
+                popup_bfe82868a38d3e9a71878e696d1467eb.setContent(html_6931e2adb03b503e4723e691407163c4);
+            
+
+            marker_b1ef21963f06e9546ed2f5dc9685f595.bindPopup(popup_bfe82868a38d3e9a71878e696d1467eb)
+            ;
+
+            
+        
+    
+        var marker_e9b8285a866b63f9cc260471eed880c4 = L.marker(
+            [52.3611329, 21.0358556],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8230f87dc11ab574ded338e9c4057ca9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c60044e48a16a1cded9bff318de61f74 = $(`<div id="html_c60044e48a16a1cded9bff318de61f74" style="width: 100.0%; height: 100.0%;"><i>Cena: 603000 Powierzchnia: 67,8 m² Rok budowy: 2010</i></div>`)[0];
+                popup_8230f87dc11ab574ded338e9c4057ca9.setContent(html_c60044e48a16a1cded9bff318de61f74);
+            
+
+            marker_e9b8285a866b63f9cc260471eed880c4.bindPopup(popup_8230f87dc11ab574ded338e9c4057ca9)
+            ;
+
+            
+        
+    
+        var marker_6268cef5e21c3d08e203b4904d463364 = L.marker(
+            [52.28172735, 20.956123224853968],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_f32d9e3385971d108227f9cc60512600 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dc7985b1bdb2434252ac15eb8335d8ce = $(`<div id="html_dc7985b1bdb2434252ac15eb8335d8ce" style="width: 100.0%; height: 100.0%;"><i>Cena: 2350000 Powierzchnia: 111,7 m² Rok budowy: 1938</i></div>`)[0];
+                popup_f32d9e3385971d108227f9cc60512600.setContent(html_dc7985b1bdb2434252ac15eb8335d8ce);
+            
+
+            marker_6268cef5e21c3d08e203b4904d463364.bindPopup(popup_f32d9e3385971d108227f9cc60512600)
+            ;
+
+            
+        
+    
+        var marker_ac394132abf97092a2c02c70001b2001 = L.marker(
+            [52.2479283, 21.0787864],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_8e44f6e21fa14e0ab1bc8666abe2703d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec5107898e67e9287278e3f67364fbed = $(`<div id="html_ec5107898e67e9287278e3f67364fbed" style="width: 100.0%; height: 100.0%;"><i>Cena: 520000 Powierzchnia: 47 m² Rok budowy: 1955</i></div>`)[0];
+                popup_8e44f6e21fa14e0ab1bc8666abe2703d.setContent(html_ec5107898e67e9287278e3f67364fbed);
+            
+
+            marker_ac394132abf97092a2c02c70001b2001.bindPopup(popup_8e44f6e21fa14e0ab1bc8666abe2703d)
+            ;
+
+            
+        
+    
+        var marker_30054343d93ec5ba6a2b78723644e7b5 = L.marker(
+            [52.0747377, 21.0270885],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_4906461bcea44155e8dc82c39f00954e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_42dcc4fa85e83f82426c12e976af7024 = $(`<div id="html_42dcc4fa85e83f82426c12e976af7024" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 47,6 m² Rok budowy: nan</i></div>`)[0];
+                popup_4906461bcea44155e8dc82c39f00954e.setContent(html_42dcc4fa85e83f82426c12e976af7024);
+            
+
+            marker_30054343d93ec5ba6a2b78723644e7b5.bindPopup(popup_4906461bcea44155e8dc82c39f00954e)
+            ;
+
+            
+        
+    
+        var marker_ff77c685149cefb06101d05bb59df27e = L.marker(
+            [52.2614149, 21.1628191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_cc2943614cb14521cf21b5eaeb8bdaa5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2932e4f1b651d7cc9b1cb2ba22c4ddc3 = $(`<div id="html_2932e4f1b651d7cc9b1cb2ba22c4ddc3" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 37,58 m² Rok budowy: nan</i></div>`)[0];
+                popup_cc2943614cb14521cf21b5eaeb8bdaa5.setContent(html_2932e4f1b651d7cc9b1cb2ba22c4ddc3);
+            
+
+            marker_ff77c685149cefb06101d05bb59df27e.bindPopup(popup_cc2943614cb14521cf21b5eaeb8bdaa5)
+            ;
+
+            
+        
+    
+        var marker_2fda34da15063a36817b542939488fc2 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_053cb7c38aba75cacea8ae972f249846 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_24af083214c2e2d4a77b0b3d7d6d47fd = $(`<div id="html_24af083214c2e2d4a77b0b3d7d6d47fd" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 53,34 m² Rok budowy: nan</i></div>`)[0];
+                popup_053cb7c38aba75cacea8ae972f249846.setContent(html_24af083214c2e2d4a77b0b3d7d6d47fd);
+            
+
+            marker_2fda34da15063a36817b542939488fc2.bindPopup(popup_053cb7c38aba75cacea8ae972f249846)
+            ;
+
+            
+        
+    
+        var marker_b1fd7e51f6a6cd79082cbf8028a047b4 = L.marker(
+            [52.2319581, 21.0067249],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_b546d9724d2960c882d2d84dd0ebe1ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f9c05af869193004f36ec44687eb52b3 = $(`<div id="html_f9c05af869193004f36ec44687eb52b3" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 32,6 m² Rok budowy: nan</i></div>`)[0];
+                popup_b546d9724d2960c882d2d84dd0ebe1ba.setContent(html_f9c05af869193004f36ec44687eb52b3);
+            
+
+            marker_b1fd7e51f6a6cd79082cbf8028a047b4.bindPopup(popup_b546d9724d2960c882d2d84dd0ebe1ba)
+            ;
+
+            
+        
+    
+        var marker_e18afa5e5bbb5973bbb7714f7c5af696 = L.marker(
+            [52.2362379, 20.9547815],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_716978143813bd8c4bb03409cdc837ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_53ffb87d46d1e98da4f2432099dd587c = $(`<div id="html_53ffb87d46d1e98da4f2432099dd587c" style="width: 100.0%; height: 100.0%;"><i>Cena: 1095200 Powierzchnia: 74 m² Rok budowy: 2010</i></div>`)[0];
+                popup_716978143813bd8c4bb03409cdc837ba.setContent(html_53ffb87d46d1e98da4f2432099dd587c);
+            
+
+            marker_e18afa5e5bbb5973bbb7714f7c5af696.bindPopup(popup_716978143813bd8c4bb03409cdc837ba)
+            ;
+
+            
+        
+    
+        var marker_4ebbe72e25defc4ef1033f91acccfa9c = L.marker(
+            [52.2614149, 21.1628191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_b5756ab694bf477e50587c3e2884b23a);
+        
+    
+            var popup_7d4fe4689b54780201719bf747c68ede = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_890bcabb50d2f52829042fd804354e77 = $(`<div id="html_890bcabb50d2f52829042fd804354e77" style="width: 100.0%; height: 100.0%;"><i>Cena: Zapytaj o ce Powierzchnia: 55,42 m² Rok budowy: nan</i></div>`)[0];
+                popup_7d4fe4689b54780201719bf747c68ede.setContent(html_890bcabb50d2f52829042fd804354e77);
+            
+
+            marker_4ebbe72e25defc4ef1033f91acccfa9c.bindPopup(popup_7d4fe4689b54780201719bf747c68ede)
+            ;
+
+            
+        
+</script>
