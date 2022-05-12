@@ -2,8 +2,11 @@
   The project presented here is a practical example of using Machine Learning. It contains all the necessary elements from data acquisition, through data cleaning, analysis and processing, to training of various types of regression models. The aim is to create a model predicting prices on the Warsaw housing market, based on data coming from OtoDom.pl portal.
 
 Chapters:
+
 I. Web Scraper
+
 II. Data cleaning and analysis
+  
 III. Implementation of Map usage and Machine Learning
 
 ________________________________________________________________________________________________________________
@@ -19,7 +22,10 @@ The result of the Scrapper program is shown below. You can see the raw data read
 __________________________________________________________________________________________________________________
 II. Data cleaning and analysis
   
-Secound step
+The next step is to prepare the collected data so that they can be used to create models. In the following fragment of the data frame, you can see some of the work that needs to be done so that the final frame contains only numerical values. This is the most time consuming process, as well as the one with the greatest impact on the quality of future model predictions, so it should be done carefully.
+ 
+![image](https://user-images.githubusercontent.com/83005003/168078902-c85b432c-9473-4c81-9f11-bd32c1da497c.png)
+
 
 III. Implementation of Map usage and Machine Learning
   ...
