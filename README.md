@@ -56,4 +56,17 @@ The finished data frame is saved as a .csv file.
 _____________________________________________________________________________________________________________________
     III. Implementation of map usage with Geopy library
 
+With the apartment addresses included in the "Location" column, it became possible to use the Geopa library to visualize the placement of the apartments on the map.
+Downloading longitude and latitude values takes quite a long time, so for the purpose of testing the correct operation of the code, the number of downloaded locations was limited to 200 positions.
 
+The photo below shows the effect of the additive. On the map the locations of the apartments are marked by markers. After clicking on them additional information about the apartment appears, including the price. A proposal for development is to calculate the distance from the city center with the Manhattan Distance algorithm and create an additional feature to the model creation process.
+
+
+![image](https://user-images.githubusercontent.com/83005003/168292058-d101789c-fdbd-4cc5-b866-ecc96c66456d.png)
+
+
+
+__________________________________________________________________________________________________________________
+      IV. Machine Learning
+
+    a) 
