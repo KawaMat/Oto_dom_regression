@@ -3,14 +3,24 @@
 
 Chapters:
 
-I. Web Scraper
+    I. Web Scraper
 
-II. Data cleaning and analysis
+    II. Data cleaning and analysis
   
-III. Implementation of Map usage and Machine Learning
+    III. Implementation of map usage with Geopy library
+
+    IV. Machine Learning
+
+        a) 
+  
+        b)
+  
+        c)
+
+    V. MongoDB introduction
 
 ________________________________________________________________________________________________________________
-I. Web Scraper:
+    I. Web Scraper:
  
 In my opinion nowadays data is a new kind of raw material - it is acquired, processed, stored and traded, and all this because it is a fuel for AI technology which is developing faster and faster. A regression or classification model is only as good as the data that trained it. The work on new models always starts with the acquisition of data, therefore the first step in the described project is to create a Web Scrapper, which will allow to take the existing housing offers from the OtoDom.pl classifieds portal. Then the data will be saved to a file in .csv format.
   
@@ -20,7 +30,7 @@ The result of the Scrapper program is shown below. You can see the raw data read
 ![image](https://user-images.githubusercontent.com/83005003/164995134-a50d93d8-0c01-46f4-9cf5-f1dbdabfb34b.png)
 
 __________________________________________________________________________________________________________________
-II. Data cleaning and analysis
+     II. Data cleaning and analysis
   
 The next step is to prepare the collected data so that they can be used to create models. In the following fragment of the data frame, you can see some of the work that needs to be done so that the final frame contains only numerical values. This is the most time consuming process, as well as the one with the greatest impact on the quality of future model predictions, so it should be done carefully.
  
@@ -43,6 +53,7 @@ Finally, check that no NaN values appear in the table and that all values are nu
 
 The finished data frame is saved as a .csv file.
 
+_____________________________________________________________________________________________________________________
+    III. Implementation of map usage with Geopy library
 
-III. Implementation of Map usage and Machine Learning
-  ...
+
