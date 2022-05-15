@@ -21,9 +21,11 @@ Chapters:
 
         1) Multiple Regression (Regresja wieloraka)
   
-        b)
+        2) Decision Tree Regressor
   
-        c)
+        3) SVR
+        
+        4) Random forest
 
     V. MongoDB introduction
 
@@ -111,19 +113,23 @@ Another improvement in model performance is the detection and removal of correla
 ![image](https://user-images.githubusercontent.com/83005003/168494722-c9cd4d8c-a29f-463b-b281-cb2f75e69d9d.png)
 
 Magnified fragment:
+
 ![image](https://user-images.githubusercontent.com/83005003/168494780-633b17d7-8fc4-435b-9522-1e364312a253.png)
 
 
 An upper trigonal matrix was created to detect correlated features. Iterating through the columns of such a matrix we checked if they contain values above an assumed threshold (thresh=0.55), if so, the feature corresponding to the analyzed column is correlated and was removed.
 
 fragment of the upper trigonal correlation matrix:
+
 ![image](https://user-images.githubusercontent.com/83005003/168495260-307448a2-aabb-4814-8448-898ee39951ae.png)
 
 
 correlated features:
+
 ![image](https://user-images.githubusercontent.com/83005003/168495295-06dd16ee-43bf-45d3-8bd5-7039c460774f.png)
 
 simple calculation of correlations:
+
 ![image](https://user-images.githubusercontent.com/83005003/168495319-c81a0bea-f10e-473e-9987-d893dfd77422.png)
 
 
