@@ -11,7 +11,15 @@ Chapters:
 
     IV. Machine Learning
 
-        a) 
+        Histogram stretching (3 sigma rule)
+        
+        Box Plot Analysis
+        
+        Correleation, removing of correlated features
+        
+        Normalization
+
+        1) Multiple Regression (Regresja wieloraka)
   
         b)
   
@@ -72,7 +80,7 @@ ________________________________________________________________________________
 
 Before creating models, you need to perform effect enhancement operations on the collected data. These include detecting correlations between features or normalizing the data. These operations will be discussed in the current chapter.
 
-    histogram stretching
+    Histogram stretching
     
 Histogram before stretching:
 
@@ -88,7 +96,7 @@ The effect of using the above function twice for the labels you have:
 ![image](https://user-images.githubusercontent.com/83005003/168494439-d2697266-f131-45be-8baf-d99b50698d4e.png)
 
 
-      Box Plot
+      Box Plot Analysis
       
 It is a good idea to make sure that the data you have does not contain outliers that may interfere with the finished model. Box Plot is used for this purpose. As you can see in the image below no data is outside the whiskers of the box plot, this means no outliers.
 
@@ -112,3 +120,16 @@ fragment of the upper trigonal correlation matrix:
 ![image](https://user-images.githubusercontent.com/83005003/168495260-307448a2-aabb-4814-8448-898ee39951ae.png)
 
 
+correlated features:
+![image](https://user-images.githubusercontent.com/83005003/168495295-06dd16ee-43bf-45d3-8bd5-7039c460774f.png)
+
+simple calculation of correlations:
+![image](https://user-images.githubusercontent.com/83005003/168495319-c81a0bea-f10e-473e-9987-d893dfd77422.png)
+
+
+      Normalization
+ 
+ ![image](https://user-images.githubusercontent.com/83005003/168495415-e38e19e3-0c06-443a-81c5-18b1aed26580.png)
+
+
+      1) Multiple Regression (Regresja wieloraka)
