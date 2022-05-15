@@ -87,3 +87,22 @@ The effect of using the above function twice for the labels you have:
 
 ![image](https://user-images.githubusercontent.com/83005003/168494439-d2697266-f131-45be-8baf-d99b50698d4e.png)
 
+
+      Box Plot
+      
+It is a good idea to make sure that the data you have does not contain outliers that may interfere with the finished model. Box Plot is used for this purpose. As you can see in the image below no data is outside the whiskers of the box plot, this means no outliers.
+
+![image](https://user-images.githubusercontent.com/83005003/168494587-4e7ca685-81ac-40d8-8816-f1cf5f244ac9.png)
+
+
+      Correleation, removing of correlated features
+      
+
+Another improvement in model performance is the detection and removal of correlated features. A good method to visualize the correlation between features is to generate a hitmap plot.
+
+![image](https://user-images.githubusercontent.com/83005003/168494722-c9cd4d8c-a29f-463b-b281-cb2f75e69d9d.png)
+![image](https://user-images.githubusercontent.com/83005003/168494780-633b17d7-8fc4-435b-9522-1e364312a253.png)
+
+
+
+
