@@ -98,11 +98,17 @@ It is a good idea to make sure that the data you have does not contain outliers 
       Correleation, removing of correlated features
       
 
-Another improvement in model performance is the detection and removal of correlated features. A good method to visualize the correlation between features is to generate a hitmap plot.
+Another improvement in model performance is the detection and removal of correlated features. A good method to visualize the correlation between features is to generate a heatmap plot. The absolute value between -1 (black color on the heatmap) and 1 (white color on the heatmap) tells you how correlated each feature is, values close to the absolute 1 are highly correlated, while correlation values close to 0 are not correlated.
 
 ![image](https://user-images.githubusercontent.com/83005003/168494722-c9cd4d8c-a29f-463b-b281-cb2f75e69d9d.png)
+
+Magnified fragment:
 ![image](https://user-images.githubusercontent.com/83005003/168494780-633b17d7-8fc4-435b-9522-1e364312a253.png)
 
 
+An upper trigonal matrix was created to detect correlated features. Iterating through the columns of such a matrix we checked if they contain values above an assumed threshold (thresh=0.55), if so, the feature corresponding to the analyzed column is correlated and was removed.
+
+fragment of the upper trigonal correlation matrix:
+![image](https://user-images.githubusercontent.com/83005003/168495260-307448a2-aabb-4814-8448-898ee39951ae.png)
 
 
