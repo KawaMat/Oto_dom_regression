@@ -138,4 +138,9 @@ simple calculation of correlations:
  ![image](https://user-images.githubusercontent.com/83005003/168495415-e38e19e3-0c06-443a-81c5-18b1aed26580.png)
 
 
+      Further description in the paper, but the program is ready in the file "Machine_Learning.ipynb"
+
+
       1) Multiple Regression (Regresja wieloraka)
+      
+      
