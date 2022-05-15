@@ -69,4 +69,21 @@ The photo below shows the effect of the additive. On the map the locations of th
 __________________________________________________________________________________________________________________
       IV. Machine Learning
 
-    a) 
+
+Before creating models, you need to perform effect enhancement operations on the collected data. These include detecting correlations between features or normalizing the data. These operations will be discussed in the current chapter.
+
+    histogram stretching
+    
+Histogram before stretching:
+
+![image](https://user-images.githubusercontent.com/83005003/168494307-23c3ca35-9ee6-4f43-84e5-0fee0d5c70d5.png)
+
+
+In order to make the distribution of prices on the histogram more symmetric (histogram stretching), a function using the 3 sigma rule was created. Its body can be viewed below:
+
+![image](https://user-images.githubusercontent.com/83005003/168494416-71624b6d-1d1c-4a76-b2c1-3cb6d4f4def9.png)
+
+The effect of using the above function twice for the labels you have:
+
+![image](https://user-images.githubusercontent.com/83005003/168494439-d2697266-f131-45be-8baf-d99b50698d4e.png)
+
