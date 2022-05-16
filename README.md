@@ -158,7 +158,6 @@ simple calculation of correlations:
       3) SVR
       
 ![image](https://user-images.githubusercontent.com/83005003/168580654-d534892d-97ba-42e1-b087-3e438a203e5b.png)
-
 ![image](https://user-images.githubusercontent.com/83005003/168581592-20ef7811-6ac1-4083-8f1d-631c929dde84.png)
 
 
