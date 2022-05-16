@@ -146,24 +146,23 @@ simple calculation of correlations:
       1) Multiple Regression (Regresja wieloraka)
       
 ![image](https://user-images.githubusercontent.com/83005003/168580374-4ebde5d4-5c42-4c71-aa92-2a16e333f69d.png)
-![image](https://user-images.githubusercontent.com/83005003/168580428-497154d7-39e0-4cc0-8f8c-8394ace644ab.png)
+![image](https://user-images.githubusercontent.com/83005003/168581454-61a9a0ed-faee-45b4-be0a-ea5f65cc52bf.png)
 
 
       2) Decision Tree Regressor
       
 ![image](https://user-images.githubusercontent.com/83005003/168580550-8d0b48c4-5276-49bf-8581-cbd7f8e60f5d.png)
-![image](https://user-images.githubusercontent.com/83005003/168580582-88fea10b-4c0c-439e-86f5-057111e2eb20.png)
+![image](https://user-images.githubusercontent.com/83005003/168581540-8c64db1b-0410-4f66-a33c-a9c4717267c7.png)
 
     
       3) SVR
       
 ![image](https://user-images.githubusercontent.com/83005003/168580654-d534892d-97ba-42e1-b087-3e438a203e5b.png)
-![image](https://user-images.githubusercontent.com/83005003/168580691-7cb1adf2-39af-432d-98cf-145ce123a79a.png)
+
+![image](https://user-images.githubusercontent.com/83005003/168581592-20ef7811-6ac1-4083-8f1d-631c929dde84.png)
 
 
       4) Random forest
       
 ![image](https://user-images.githubusercontent.com/83005003/168580774-60d8f880-1425-45ab-82e4-40e437b45e18.png)
-![image](https://user-images.githubusercontent.com/83005003/168580793-8999360e-fd8a-4fcf-9602-2ebf1378dc1f.png)
-
-
+![image](https://user-images.githubusercontent.com/83005003/168581646-8c4fc8e7-969f-42eb-b483-c625f7009e7c.png)
