@@ -66,7 +66,7 @@ The finished data frame is saved as a .csv file.
 _____________________________________________________________________________________________________________________
     III. Implementation of map usage with Geopy library
 
-With the apartment addresses included in the "Location" column, it became possible to use the Geopa library to visualize the placement of the apartments on the map.
+With the apartment addresses included in the "Location" column, it became possible to use the Geopy library to visualize the placement of the apartments on the map.
 Downloading longitude and latitude values takes quite a long time, so for the purpose of testing the correct operation of the code, the number of downloaded locations was limited to 200 positions.
 
 The photo below shows the effect of the additive. On the map the locations of the apartments are marked by markers. After clicking on them additional information about the apartment appears, including the price. A proposal for development is to calculate the distance from the city center with the Manhattan Distance algorithm and create an additional feature to the model creation process.
@@ -138,9 +138,32 @@ simple calculation of correlations:
  ![image](https://user-images.githubusercontent.com/83005003/168495415-e38e19e3-0c06-443a-81c5-18b1aed26580.png)
 
 
-      Further description in the paper, but the program is ready in the file "Machine_Learning.ipynb"
+
+
+      Results:
 
 
       1) Multiple Regression (Regresja wieloraka)
       
+![image](https://user-images.githubusercontent.com/83005003/168580374-4ebde5d4-5c42-4c71-aa92-2a16e333f69d.png)
+![image](https://user-images.githubusercontent.com/83005003/168580428-497154d7-39e0-4cc0-8f8c-8394ace644ab.png)
+
+
+      2) Decision Tree Regressor
       
+![image](https://user-images.githubusercontent.com/83005003/168580550-8d0b48c4-5276-49bf-8581-cbd7f8e60f5d.png)
+![image](https://user-images.githubusercontent.com/83005003/168580582-88fea10b-4c0c-439e-86f5-057111e2eb20.png)
+
+    
+      3) SVR
+      
+![image](https://user-images.githubusercontent.com/83005003/168580654-d534892d-97ba-42e1-b087-3e438a203e5b.png)
+![image](https://user-images.githubusercontent.com/83005003/168580691-7cb1adf2-39af-432d-98cf-145ce123a79a.png)
+
+
+      4) Random forest
+      
+![image](https://user-images.githubusercontent.com/83005003/168580774-60d8f880-1425-45ab-82e4-40e437b45e18.png)
+![image](https://user-images.githubusercontent.com/83005003/168580793-8999360e-fd8a-4fcf-9602-2ebf1378dc1f.png)
+
+
